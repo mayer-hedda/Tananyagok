@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>JS dolgozat</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="js/reg_utan.js"></script>
+    </head>
+    <body>
+        <div>
+            <h1>JS dolgozat második rész</h1>
+            <div>
+                <h3>Feladat:</h3>
+                <ul>
+                    <li>Minden csoporttagnak külön kiszámolni az átlagát</li>
+                    <li>Kiszámolni a teljes csoport átlagot</li>
+                    <li>Plusz feladat:
+                        <ul>
+                            <li>Bootstrap formázás mindkét lapra (külön jegyért)</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <table>
+                    <tr>
+                        <th>Sorszám</th>
+                        <th>Név</th>
+                        <th>Dolgozat 1</th>
+                        <th>Dolgozat 2</th>
+                        <th>Dolgozat 3</th>
+                        <th>Dolgozat 4</th>
+                        <th>Átlag</th>
+                    </tr>
+                    <tr>
+                        <td>1.</td>
+                        <td>Lapos Elemér</td>
+                        <td id="dolgozat_11">3</td>
+                        <td id="dolgozat_12">5</td>
+                        <td id="dolgozat_13">5</td>
+                        <td id="dolgozat_14">4</td>
+                        <td id="atlag_1"></td>
+                    </tr>
+                    <tr>
+                        <td>2.</td>
+                        <td>Teszt Elek</td>
+                        <td id="dolgozat_21">2</td>
+                        <td id="dolgozat_22">3</td>
+                        <td id="dolgozat_23">5</td>
+                        <td id="dolgozat_24">3</td>
+                        <td id="atlag_2"></td>
+                    </tr>
+                    <tr>
+                        <td>3.</td>
+                        <td>Para Zita</td>
+                        <td id="dolgozat_31">1</td>
+                        <td id="dolgozat_32">4</td>
+                        <td id="dolgozat_33">5</td>
+                        <td id="dolgozat_34">5</td>
+                        <td  id="atlag_3"></td>
+                    </tr>
+                    <tr>
+                        <td>4.</td>
+                        <td>Pár Zoltán</td>
+                        <td id="dolgozat_41">5</td>
+                        <td id="dolgozat_42">5</td>
+                        <td id="dolgozat_43">4</td>
+                        <td id="dolgozat_44">5</td>
+                        <td id="atlag_4"></td>
+                    </tr>
+                    <tr>
+                        <td>5.</td>
+                        <td>Szikla Szilárd</td>
+                        <td id="dolgozat_51">2</td>
+                        <td id="dolgozat_52">3</td>
+                        <td id="dolgozat_53">3</td>
+                        <td id="dolgozat_54">2</td>
+                        <td id="atlag_5"></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">Átlag</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td><input type="submit" value="Számítás" id="gomb" onclick="atlag_szamitas()"></td>
+                    </tr>
+                </table>
+                <div>
+                    <p>Csoport átlaga:</p>
+                </div>
+            </div> 
+        </div>
+    </body>
+</html>

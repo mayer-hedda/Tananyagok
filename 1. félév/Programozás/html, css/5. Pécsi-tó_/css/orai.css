@@ -1,0 +1,144 @@
+body {
+    background-image: url("../img/grass.jpg");
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    color: #fff;
+}
+
+h1 {
+    text-align: center;
+}
+
+#focim, .container {
+    background-color: #08F;
+    background-image: url(../img/splash.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    box-shadow: 0 0 12px #048;
+}
+
+#focim {
+    width: 420px;
+    margin: auto;
+    padding: 32px;
+    border-radius: 32px;
+    font-size: 24px;
+    text-shadow: 3px 3px #048;
+    line-height: 48px;
+}
+ 
+.container {
+    min-width: 300px;
+	min-height: 240px;
+	padding: 40px;
+	border-radius: 96px;
+	text-align: justify;
+	font-size: 14px;
+}
+
+.container:nth-child(odd) {
+    margin: 32px 32px 64px 240px;
+}
+
+.container:nth-child(even) {
+    margin: 32px 240px 64px 32px;
+}
+
+.toneve {
+    margin: 0 0 24px 0;
+    border-bottom: solid 2px white;
+}
+
+.adatok {
+    float: right;
+    border: solid 1px white;
+    border-radius: 6px;
+    box-shadow: 4px 4px 8px #048;
+    margin: 0 0 12px 18px;
+}
+
+.adatok td {
+    background: #fff;
+    padding: 4px 8px;
+    vertical-align: top;
+    font-size: 12px;
+    color: #048;
+}
+
+.adatok td:nth-child(1) {
+    font-weight: bold;
+}
+
+.adatok td:nth-child(2) {
+    width: 210px;
+}
+
+.adatok img {
+    float: left;
+    height: 20px;
+}
+
+.kepek div {
+    float: left;
+    width: 140px;
+    height: 140px;
+    margin: 4px;
+    border-radius: 6px;
+    box-shadow: 4px 4px 8px #048;
+    background-color: white;
+    text-align: center;
+    line-height: 136px;
+}
+
+.kepek div:hover {
+    background-color: #ff0;
+}
+
+.kepek img {
+    max-width: 128px;
+    max-height: 128px;
+    border-radius: 2px;
+    vertical-align: middle;
+}
+
+blockquote {
+    margin-left: 4px;
+    padding: 4px 16px;
+    border-left: double 6px white;
+    border-radius: 8px;
+    background-color: #09f;
+    width: 250px;
+    box-shadow: 2px 2px 2px #048;
+}
+
+a {
+    text-decoration: none;
+}
+
+.adatok a {
+    color: #048;
+}
+
+.map:hover {
+    background-color: #ff0;
+}
+
+ul a {
+    display: inline-block;
+    width: 210px;
+    color: white;
+    font-weight: bold;
+}
+
+ul a:hover {
+    background-color: #ff0;
+    color: #048;
+}
+
+li {
+    list-style-image: url(../img/suw.png);
+}
+
+li:hover {
+    list-style-image: url(../img/sun.png);
+}

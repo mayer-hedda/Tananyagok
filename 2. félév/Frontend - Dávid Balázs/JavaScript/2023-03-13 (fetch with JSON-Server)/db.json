@@ -1,0 +1,18 @@
+{
+    "users": [
+        {
+            "id": 1,
+            "name": "Ferenczi Lajos",
+            "status": "Active",
+            "email": "f.laji10@gmail.com",
+            "role": "Admin"
+        },
+        {
+            "id": 2,
+            "name": "asd",
+            "status": "Active",
+            "email": "asdwqdwq@gmail.com",
+            "role": "Owner"
+        }
+    ]
+}

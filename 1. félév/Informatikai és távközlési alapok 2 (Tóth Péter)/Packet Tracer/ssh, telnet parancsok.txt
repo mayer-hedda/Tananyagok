@@ -1,0 +1,52 @@
+wifi router
+
+
+
+-------- SSH lépései --------
+1. adj meg egy domain nevet:
+	<config> ip domain name myDomain
+
+2. RSA kulcs generálás:
+	SSH 1: 512 bit kulcs
+	SSH 2: 1024 bit kulcs
+	
+	crypto key generate rsa
+	1024
+	
+3. user létrehozás:
+	<config> username peti password alma
+
+4. ssh verzió beállítása (opcionális, csak ha ssh2-es verziót kell használni):
+	<config> ip ssh version 2
+	
+5. telnet kapcsolat létrehozása:
+	<config> line vty 0 4
+	
+6. ssh tunneling:
+	<config-line> transport input ssh
+
+7. helyi adatokkal történő bejelentkezés beállítása:
+	<config-line> login local
+
+SSH kapcsolat kész!
+Tesztelés gépről:
+command prompt -> ssh -l peti 192.168.10.14(router cím, amivel a géppel össze van kötve) -> alma
+
+
+
+
+
+
+-------- Telnet lépései --------
+1. user létrehozás:
+	<config> username peti password alma
+
+2. telnet kapcsolat létrehozása:
+	<config> line vty 0 4
+
+3. helyi adatokkal történő bejelentkezés beállítása:
+	<config-line> login local
+
+Telnet kész!
+Tesztelés gépről:
+command prompt -> telnet (router cím, amivel a géppel össze van kötve) -> alma

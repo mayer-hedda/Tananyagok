@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>JS dolgozat</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="js/index.js"></script>
+    </head>
+    <body>
+        <div>
+            <h1>JS dolgozat</h1>
+            <div>
+                <h3>Feladat:</h3>
+                <ul>
+                    <li>E-mail cím kitöltöttség ellenőrzés</li>
+                    <li>Felhasználónév kitöltöttség ellenőrzés</li>
+                    <li>Felhasználónév csak Nagybetűt, kisbetűt és számot tartalmazhat</li>
+                    <li>Születési dátum nem lehet 18 év alatti a regisztrációhoz</li>
+                    <li>A jelszavak egyezzenek, legyen benne kisbetű nagybetű és szám. Minimum 8 karakter.</li>
+                    <li>Az egyes hibákat a beviteli mező utáni &lt;p&gt; tag-be írjuk ki</li>
+                    <li>A beküldés gomb csak akkor legyen aktív, ha a feltételek rendben vannak.</li>
+                </ul>
+            </div>
+            <div>
+                <form action="reg_utan.html" method="GET">
+                    <label for="email">E-mail:</label>
+                    <input type="email" name="email" id="email" onchange="email_ellenor(); ellenorzes()"><p id="hiba_email"></p>
+                    <label for="userName">Felhasználónév:</label>
+                    <input type="text" name="userName" id="userName" onchange="username_ellenor(); ellenorzes()"><p id="hiba_userName"></p>
+                    <label for="szuli">Születési dátum:</label>
+                    <input type="date" name="szuli" id="szuli" onchange="szulinap_ellenor(); ellenorzes()"><p id="hiba_szuli"></p>
+                    <label for="pass1">Jelszó:</label>
+                    <input type="password" name="pass1" id="pass1" onchange="jelszo_ellenor(); ellenorzes()">
+                    <label for="pass2">Jelszó újra:</label>
+                    <input type="password" name="pass2" id="pass2" onchange="jelszo_ellenor(); ellenorzes()"><p id="hiba_pass"></p>
+                    <input type="submit" name="elkuld" value="Beküldés" id="gomb" disabled>
+                </form>
+            </div> 
+        </div>
+    </body>
+</html>

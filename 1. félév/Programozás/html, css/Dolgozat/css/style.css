@@ -1,0 +1,40 @@
+body {
+    background-color: rgb(255, 127, 80);
+}
+
+.fejlec {
+    text-align: center;
+    padding: 30px;
+}
+
+.főrész {
+    max-width: 1000px;
+    margin: auto;
+}
+
+.tartalom {
+    float: left;
+    width: 700px;
+    margin-right: 100px;
+    text-align: justify;
+    line-height: 150%;
+}
+.tartalom > img {
+    float: right;
+    width: 300px;
+    margin: 10px;
+}
+
+.kepek img {
+    width: 200px;
+    height: 100px;
+}
+
+.oldalsav {
+    float: right;
+    width: 200px;
+}
+.oldalsav > input {
+    padding: 5px;
+    margin: 5px;
+}

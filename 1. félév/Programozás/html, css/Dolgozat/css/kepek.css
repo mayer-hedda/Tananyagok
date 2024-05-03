@@ -1,0 +1,32 @@
+body {
+    background-color: rgb(255, 127, 80);
+}
+
+.fejlec {
+    width: 1000px;
+    margin: auto;
+}
+.fejlec td {
+    width: 300px;
+    text-align: center;
+}
+
+#elozo {
+    text-align: left;
+}
+
+#fooldal {
+    text-align: center;
+}
+
+#kozetkezo {
+    text-align: right;
+}
+
+.kep {
+    text-align: center;
+}
+.kep > img {
+    width: 500px;
+    margin-top: 250px;
+}

@@ -1,0 +1,7 @@
+1.	Feladat: Módosítsd a text kinézetét
+
+2.	Feladat: console.log-old ki a vezeték-és keresztnevet
+
+3.	Feladat: Szúrj be felülre egy új sort ahányszor rákattintasz a „Sor beszúrása” gombra
+
+4.	Feladat: Töröld ki azt az option-t ami éppen ki van választva a Törlés gomb segítségével

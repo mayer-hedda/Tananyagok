@@ -1,0 +1,12 @@
+1. Nyisd meg a forrásként kapott index.html fájlt!
+2. Hozz létre egy JavaScript fájlt és hivatkozd meg a HTML-ben!
+3. Kérd le a DOMról a "mondatok" id-jú elemet, és írasd ki a konzolra
+4. Változtasd meg JavaScript segítségével a "mondatok" id-jú elemben található 2. bekezdés (<p></p>) SZÖVEGÉT bármire
+5.  Kérd le a DOM-ról a "szamok" osztállyal rendelkező elemeket, és tárold el őket egy változóban
+    Változtasd meg az 1. "szamok" osztályba tartozó elem utolsó bekezdésének HTML tartalmát:
+    <p>4: öt</p> helyett legyen <p><b>4: négy</b></p>
+
+6.  Kérd le a DOMról a "children" ID-val rendelkező elemet, és tárold el egy változóban
+    A .children property használatával változtasd meg a "children" ID-jú elem utolsó divjének legbelső szövegét egy tetszőleges szövegre:
+        A "children" osztályú elem 2. indexű gyermekének a 0. indexű gyermekének a 0. indexű gyermekét
+

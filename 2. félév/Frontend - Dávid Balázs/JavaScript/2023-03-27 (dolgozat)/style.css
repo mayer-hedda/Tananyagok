@@ -1,0 +1,18 @@
+body {
+    background-color: rgb(33, 33, 33);
+    color: bisque;
+}
+
+input {
+    color: bisque;
+}
+
+tr {
+    color: bisque;
+}
+
+button {
+    width: 150px;
+    margin: 0 20px;
+    margin-bottom: 40px;
+}

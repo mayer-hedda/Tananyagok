@@ -1,0 +1,111 @@
+body {
+    background: #DDFFFF;
+    color: #004400;
+    max-width: 40%;
+    margin: auto;
+}
+
+.container{
+    margin-bottom: 50px;
+}
+
+.kozep {
+    text-align: center;
+}
+
+.jobb {
+    text-align: right;
+}
+
+.betu1 {
+    font-family: 'Monotype Corsiva';
+}
+
+.betu2 {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.betu3 {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.cim {
+    border: black outset;
+    margin: auto;
+    text-align: center;
+    background: #a4e7a4;
+    padding: 1px;
+    max-width: 75%;
+}
+
+#border {
+    border: 1px inset black;
+}
+
+h1 {
+    font-weight: 100;
+}
+
+.fopontok {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+}
+
+.beljebb {
+    font-size: small;
+    font-weight: 100;
+    margin-left: 25px;
+}
+
+.szobak {
+    font-family: 'Times New Roman', Times, serif;
+    margin: auto;
+    width: 350px;
+}
+
+th, .ures {
+    background: green;
+    padding: 3px;
+    text-align: right;
+    width: 100px;
+}
+
+td {
+    background: lightgreen;
+    text-align: right;
+}
+
+.arak {
+    border: 2px outset black;
+    font-family: 'Times New Roman', Times, serif;
+    margin: auto;
+    width: 450px;
+}
+
+.arak td {
+    border: 1px solid black;
+    padding: 5px 10px;
+    text-align: center;
+}
+
+img {
+    float: left;
+    width: 150px;
+    margin-left: 30px;
+}
+
+.felsorolas {
+    margin-left: 170px;
+}
+
+hr {
+    border: 1.5px solid rgb(49, 179, 49);
+}
+
+.szoveg {
+    font-size: 30px;
+}
+
+a {
+    color: #004400;
+}

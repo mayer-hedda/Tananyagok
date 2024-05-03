@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <title>Beléptető</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="js/script.js"></script>
+</head>
+<body>
+    <div>
+        <form name="regisztracio" action="index.html" method="POST">
+            <label for="email">E-mail: </label>
+            <input type="email" placeholder="teszt@a.hu" name="email" id="email" maxlength="50"><br>
+            Jelszó: <input type="password" name="pass1" id="pass1" onchange="jelszo_ellenor()"><br>
+            Jelszó újra: <input type="password" name="pass2" id="pass2" onchange="jelszo_ellenor()"><br>
+            Születési dátum: <input type="date" min="1980-01-01" name="szuli" id="szuli" onchange="szulinap_ellenor()"><br>
+            <button disabled="" id="gomb">Regisztráció</button>
+        </form>
+        <div id="eredmeny"></div>
+    </div>
+</body>
+</html>

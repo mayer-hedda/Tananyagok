@@ -1,0 +1,109 @@
+1. 
+	1. 	nationality: turkish
+		occupation: computer programmer
+		nickname: no
+	2.	nationality: japanese
+		occupation: graphics designer
+		nickname: yes (KK)
+	3.	nationality: argentinean
+		occupation: interpreter
+		nickname: no
+	4.	nationality: canadian
+		occupation: salesperson
+		nickname: yes (Tonny)
+
+
+
+2.
+	1. He grew up in Izmir.
+	2. Her birthplace is Osaka.
+	3. She's originally from Buenos Aires.
+	4. His hometown is Toronto.
+
+
+
+3.
+	1.	with colleagues / to use the Internet
+		occupation: computer programmer
+		lives in: Tokyo
+		hometown: Sendai
+		married: yes
+	2. 	in e-mails / in meetings / in international phone calls
+		occupation: financial manager
+		lives in: Brazil
+		hometown: Curitiba
+		married: no
+	3.	Canada / Brazil / China / (Lebanon)
+		occupation: executive assistant
+		lives in: Dubai
+		hometown: Beirut
+		married: yes
+
+
+
+1. ASSIGNMENTS
+	1. true
+	2. false --> His last name is Messi.
+	3. false --> He is an athlete.
+	4. no infromation
+	5. false --> His nickname is Leo.
+
+2. ASSIGNMENTS
+	1. Nice to meet you -- It's a pleasure to meet you.
+	2. first name -- given name
+	3. last name -- family name
+	4. single -- not married
+
+3. ASSIGNMENTS
+	1. Who's that? -- That's my brother, Ryan.
+	2. My name's Sidney, and this is Sam. -- Hi. I'am Rachel.
+	3. My name's Elizabeth, bit everyone calls me Ellie. -- I'd like you to meet Ellie. / It's a pleasure to meet you.
+	4. Where are you from? -- London.
+
+4. ASSIGNMENTS
+	1. Who's that? -- That's Mr. Miller.
+	2. What's her occupation? -- She's an artist.
+	3. Your son is very cute. How old is he? -- He's eight months old.
+	4. I'll send you an e-mail. What's your e-mail address? -- It's une-yoshiko@videotech.co.jp.
+	5. Where're Anil and Temel from? -- They're from Istambul, I think. 
+	6. Who're your new classmates? -- That's Marcos on the right and Paolo on the left.
+
+5. ASSIGNMENTS
+	1. Suraj Sharam is a wonderful actor.
+	2. Lionel Messi is a fantastic athlete.
+	3. Juan Gabriel Vásquez is a great writer.
+	4. The Gipsy Kings are excellent musicians.
+	5. Mary Berry is a terrific baker and presenter.
+	6. Nobu Matsuhisa is a famous chef.
+
+6. ASSIGNMENTS
+	1. Are Andy and Ray students? -- Yes, they are.
+	2. Is John an athlete. -- Maybe, but he is a soccer player. / No he's not.
+	3. Is Maria from Venezuela? -- No, she is not.
+	4. Are Linda and Mike married? -- Yes, they are.
+
+7. ASSIGNMENTS
+	1. Is Suraj Sharma in the movie Life of Pie?
+	2. Is Lionel Messi a soccer player?
+	3. Is Juan Gabriel Vásquez a Simón Bolíver Prize winner?
+	4. Are The Gipsy King's song in French?
+	5. Is Mary Berry from the United Kingdom?
+	6. Is Matsuhisa sushi chef?
+
+8. ASSIGNMENTS
+	1. Anya and Imogen are new students. Their theacher is Mrs. Michaels.
+	2. Mr. Vidal is a computer programmer. His family lives in Paris.
+	3. Mrs. Ichikawa is from Tokyo. Her nationality is Japanese.
+	4. Are you a photographer? Your pictures are fantastic.
+	5. I'd like to meet my brother James. He's a musician.
+	6. Lucy and I are in a computer class. Our class is at 9 AM.
+
+
+
+HOUSEWORK:
+	1. 	My favourite writer's firstname is Leiner, and her last name is Laura. She's 38 years old and she's a talented writer. 
+		Her birthplace is Hungary and her hometown is Budapest. I don't know who her favourite actor is.
+
+	2. 	Mia Wasikowska is a famous Australian actress. Her date of birth is October 14, 1989. Ms. Wasikowska's birthplace is
+		Canberra, Australia. Now she lives outside of Sidney. She can speak English with two different accents. This is great
+		for her occupation. Ms. Wasikowska has a brother and a sister, Kai and Jess. Her mother is from Poland.

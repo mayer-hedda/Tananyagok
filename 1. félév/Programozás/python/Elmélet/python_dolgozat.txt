@@ -1,0 +1,21 @@
+Írj egy python programot, ami rajzol teknőccel egy szabályos sokszöget!
+Részletek:
+1. A felhasználótól kérje be a program a szögek számát! 
+(ciklusban amíg nem ad a felhasználó értékelhető értéket)
+2. A teknős programmal rajzoltasd meg a sokszöget!
+ - (A szabályos sokszögek belső szögeinek összege 360 fok)
+3. Legyen lehetősége a felhasználónak a program bezárása nélkül újra rajzoltatni akár egy másik sokszöget.
+ - pl. A végén kiírja a képernyőre, hogy kíván másik sokszöget rajzolni? (I/N)
+
+
+
+Plusz jegyért:
+Írj egy programot, ami rajzol egy háromszöget!
+1. Háromszög oldalak bekérése felhasználótól.
+2. Háromszög rajzolása lehetséges-e?
+3. Felrajzolja a háromszöget.
+
+Derékszögű háromszög belső szögeinek számolásához:
+Szinusz: sin a = szöggel szemközti befogó / átfogó
+Koszinusz: cos a = szög melletti befogó / átfogó
+Tangens: tan a = szöggel szemközti befogó / a szög melleti befogó

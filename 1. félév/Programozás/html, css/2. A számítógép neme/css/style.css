@@ -1,0 +1,35 @@
+body {
+    background-image: url("../img/alap.jpg");
+    color: #333333;
+}
+
+body .container {
+    max-width: 50%;
+    margin: auto;
+    margin-top: 5%;
+}
+
+body .focim {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+body .beljebb {
+    padding-left: 50px;
+}
+
+.hr {
+    border: 4px solid #555555;
+    border-radius: 10px;
+}
+
+.right {
+    text-align: right;
+}
+
+img {
+    float: right;
+    display: block;
+    max-height: 100px;
+    padding-right: 50px;
+}

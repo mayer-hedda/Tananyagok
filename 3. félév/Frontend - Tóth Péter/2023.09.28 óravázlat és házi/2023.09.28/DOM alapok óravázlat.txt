@@ -1,0 +1,34 @@
+Az óra témakörei:
+
+DOM fogalma, szerepe, felépítése
+
+document kulcsszó a JavaScriptben
+
+Elemek elérése DOM-ról, metódusok működése:
+
+document.getElementById()
+document.getElementsByClassName()
+document.getElementsByTagName()
+document.getElementByName()
+document.querySelector()
+document.querySelectorAll()
+
+HTMLElement object szövegének, tartalmának elérése:
+
+.innerHTML
+.innerText
+
+Lépkedés DOM hierarchiában, elemek parent-child viszonya:
+
+.children, .childrenNodes, .parentNode
+
+Elméleti tananyaghoz kapcsolódó gyakorló kérdések:
+
+Mi az a DOM?
+Hogyan lehet elérni a DOM-ot JavaScriptből?
+Miért érdemes a Script taget a HTML fájl végére tenni, ha elemeket szeretnénk lekérni a DOMról?
+Hogyan tudom elérni a DOMról a 2. olyan elemet, aminek az osztálya "lista"?
+Mi a különbség az innerHTML és az innerText között?
+Mi a különbség a document.querySelector() és a document.querySelectorAll() között?
+Hogyan tudom elérni egy elem parent elemét?
+Hogyan tudom elérni egy elem children elemeit?

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/XML/XMLDocument.xml to edit this template
+-->
+<capak>
+    <capa>
+        <nev>Fina</nev>
+        <kor>2</kor>
+        <faj>TIGRISCAPA</faj>
+        <hossz>2.5</hossz>
+        <lakhely>Mexikói Öböl</lakhely>
+    </capa>
+    <capa>
+        <nev>Capeti</nev>
+        <kor>4</kor>
+        <faj>TIGRISCAPA</faj>
+        <hossz>3</hossz>
+        <lakhely>Zöld foki szigetek</lakhely>
+    </capa>
+    <capa>
+        <nev>Capali</nev>
+        <kor>3</kor>
+        <faj>MACSKACAPA</faj>
+        <hossz>0.7</hossz>
+        <lakhely>Egyiptom</lakhely>
+    </capa>
+    <capa>
+        <nev>Fogas</nev>
+        <kor>2</kor>
+        <faj>FEHERCAPA</faj>
+        <hossz>7</hossz>
+        <lakhely>Vörös Tenger</lakhely>
+    </capa>
+</capak>

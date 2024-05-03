@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kérdőív</title>
+    <script src="js/script.js"></script>
+</head>
+<body>
+    <div>
+        <form action="index.html" method="get" name="kerdessor">
+            <label for="email">Email: </label><input type="email" placeholder="teszt@a.hu" name="email" id="email">
+            Születési dátum: 
+            <input type="date" min="1980-01-01" name="szuli"><br>
+
+            Kedvenc járgány: 
+            <input type="checkbox" name="valaszto" id="valaszto" value="BMW">BMW
+            <input type="checkbox" name="valaszto" id="valaszto" value="Audi">Audi
+            <input type="checkbox" name="valaszto" id="valaszto" value="Merci">Merci
+            <input type="checkbox" name="valaszto" id="valaszto" value="Toyota">Toyota
+            <input type="checkbox" name="valaszto" id="valaszto" value="Mazda">Mazda
+            <br>
+
+            Kedvenc üzemanyag:
+            <input type="radio" name="radio" checked value="benzin" id="radio1">Benzin
+            <input type="radio" name="radio" value="gazolaj" id="radio2">Gázolaj
+            <input type="radio" name="radio" value="elektromos" id="radio2">Elektromos
+            <br>
+
+            Jogosítvány megszerzésének éve:
+            <input type="number" name="jogsi" id="jogsi">
+            <br>
+
+            <button disabled="" onclick="kiertekeles()">Kiértékelés</button>
+        </form>
+        <div id="kiertekeles">
+        </div>
+    </div>
+</body>
+</html>

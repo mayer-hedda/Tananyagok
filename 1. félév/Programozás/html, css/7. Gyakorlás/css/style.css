@@ -1,0 +1,55 @@
+body {
+    background: lightblue;
+    width: 70%;
+    margin: auto;
+}
+
+.cimsor {
+    height: 100px;    
+    padding: 40px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.pecs_kep {
+    width: 300px;
+}
+
+.kep {
+    text-align: center;
+}
+
+.table {
+    padding: 10px;
+}
+
+.orarend {
+    margin: auto;
+    border: 2px solid blueviolet;
+    background: rgb(240, 199, 205);
+}
+
+th {
+    border: 2px solid blueviolet;
+}
+
+td {
+    border: 1px solid blueviolet;
+}
+
+.regisztracio {
+    text-align: center;
+}
+
+input {
+    padding: 5px;
+    margin: 10px;
+    width: 200px;
+    text-align: center;
+}
+
+.submit {
+    width: 214px;
+}

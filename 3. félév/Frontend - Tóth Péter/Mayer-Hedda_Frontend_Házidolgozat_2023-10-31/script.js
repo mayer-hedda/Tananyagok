@@ -1,0 +1,53 @@
+var submit = document.getElementById("addProduct");
+
+submit.addEventListener("click", () => {
+
+    var name = document.getElementById("productName").value;
+    var quantity = document.getElementById("productQuantity").value;
+    var price = document.getElementById("productPrice").value;
+    var image = document.getElementById("imageUrl").value;
+    var table = document.getElementById("table");
+
+    if(name == "") {
+        alert("Kérlek add meg a termék nevét!")
+    } else if(price == "") {
+        alert("Kérlek add meg a termék árát!")
+    } else if(image == "") {
+        alert("Kérlek add meg a termék képének URL-jét!")
+    } else {
+        if(quantity == "") {
+            table.innerHTML = table.innerHTML + `
+                <tr>
+                    <td>${name}</td>
+                    <td>0</td>
+                    <td>$${price}</td>
+                    <td><img src="${image}"></td>
+                    <td><button class="btn btn-danger" onclick="deleteRow(this)">Delete</button></td>
+                </tr>
+            `;
+        } else {
+            table.innerHTML = table.innerHTML + `
+                <tr>
+                    <td>${name}</td>
+                    <td>${quantity}</td>
+                    <td>$${price}</td>
+                    <td><img src="${image}"></td>
+                    <td><button class="btn btn-danger" onclick="deleteRow(this)">Delete</button></td>
+                </tr>
+            `;
+        }
+
+        document.getElementById("productName").value = "";
+        document.getElementById("productQuantity").value = "";
+        document.getElementById("productPrice").value = "";
+        document.getElementById("imageUrl").value = "";
+    }
+})
+
+
+function deleteRow(button) {
+    var row = button.parentNode.parentNode;
+
+    row.parentNode.removeChild(row);
+}
+

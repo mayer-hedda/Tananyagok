@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="200" prefWidth="320" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="javaFX.FXMLDocumentController">
+    <children>
+        <Label fx:id="label" layoutX="126" layoutY="120" minHeight="16" minWidth="69" />
+      <HBox layoutX="5.0" layoutY="14.0" prefHeight="40.0" prefWidth="309.0" spacing="50.0">
+         <children>
+            <Button layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#addNumbers" prefHeight="40.0" prefWidth="40.0" text="+" />
+            <Button layoutX="100.0" layoutY="14.0" mnemonicParsing="false" onAction="#subNumbers" prefHeight="40.0" prefWidth="40.0" text="-" />
+            <Button layoutX="181.0" layoutY="14.0" mnemonicParsing="false" onAction="#multiNumbers" prefHeight="40.0" prefWidth="40.0" text="*" />
+            <Button layoutX="266.0" layoutY="14.0" mnemonicParsing="false" onAction="#divNumbers" prefHeight="40.0" prefWidth="40.0" text="/" />
+         </children>
+      </HBox>
+      <TextField fx:id="aNumber" layoutX="67.0" layoutY="69.0" />
+      <TextField fx:id="bNumber" layoutX="67.0" layoutY="105.0" />
+      <TextField fx:id="resultNumber" editable="false" layoutX="67.0" layoutY="141.0" />
+    </children>
+</AnchorPane>

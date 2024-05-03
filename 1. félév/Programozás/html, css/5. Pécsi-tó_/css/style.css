@@ -1,0 +1,104 @@
+body {
+    background-image: url(../img/grass.jpg);
+}
+
+.container {
+    max-width: 55%;
+    margin: auto;
+    font-size: 15px;
+    background: rgb(66, 136, 241);
+    padding: 30px;
+    border-radius: 100px;
+    overflow: hidden;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.kozep {
+    text-align: center;
+}
+
+.feher {
+    color: white;
+}
+
+.cim {
+    margin-bottom: 0;
+}
+
+.hr {
+    margin-top: 0;
+    border-top: 2px solid white;
+}
+
+p {
+    text-align: justify;
+}
+
+.tablazat {
+    background-color: rgb(66, 136, 241);
+    border: 1px solid white;
+    border-radius: 5px;
+    width: 400px;
+    float: right;
+    margin: 20px 0 10px 20px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.534);
+    
+}
+
+.tablazat td, .tablazat th {
+    background-color: white;
+    padding-left: 10px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+.tablazat th {
+    width: 125px;
+    text-align: left;
+    color: darkblue;
+}
+
+.tablazat img {
+    width: 20px;
+    padding-top: 3px;
+    float: left;
+}
+
+.margin {
+    margin-top: 30px;
+}
+
+.kepek div {
+    background-color: white;
+    display:inline-block;
+    border-radius: 5px;
+    /* height: 159px; */
+    width: 159px;
+    height: 159px;
+    margin: auto;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.534);
+    overflow: hidden;
+    padding: 10px 5px;
+}
+
+.kepek img {
+    width: 100%;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    border-radius: 2%;
+}
+
+.linkek {
+    background-color: rgb(73, 142, 246);
+    border-left: 4px double white;
+    border-radius: 10px;
+    display: inline-block;
+    padding: 5px 100px 10px 10px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.534);
+}
+
+.viz {
+    float: right;
+    margin: -30px;
+}

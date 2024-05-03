@@ -1,0 +1,49 @@
+body {
+    background-color: #2A324B;
+    color: white;
+    margin: 30px;
+}
+
+h2 {
+    margin-bottom: 30px;
+}
+
+form {
+    width: 80%;
+    margin: auto;
+    border: 3px solid #303956;
+    border-radius: 20px;
+    padding: 30px;
+}
+
+.button {
+    text-align: center;
+    margin-top: 30px;
+}
+
+table {
+    border: 3px solid #303956;
+    border-radius: 20px;
+    border-collapse: initial;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    margin-top: 50px;
+    padding: 20px;
+    border-spacing: 0px;
+}
+
+th {
+    padding: 10px;
+    border-bottom: 1px solid #303956;
+}
+
+img {
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+}
+
+tbody {
+    background-color: #303956;
+}

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <title>Dolgozat</title>
+
+    <meta author="Mayer Hedda Adrienn">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="container mt-5">
+        <h1 class="text-center pb-2">Kávérendelések</h1>
+
+        <table class="table mt-5">
+            <thead>
+                <th class="text-center">ID</th>
+                <th class="text-center">Megrendelő neve</th>
+                <th class="text-center">Megrendelési dátum</th>
+                <th class="text-center">Cím</th>
+                <th class="text-center">Kávé fajta</th>
+                <th class="text-center">Mennyiség</th>
+            </thead>
+
+            <tbody id="tbody"></tbody>
+        </table>
+
+        <div class="container mt-5">
+            <form class="w-50 m-auto d-flex flex-column">
+                <div class="form-group mb-2 mt-5">
+                    <label for="inputId">ID</label>
+                    <input type="number" class="form-control" id="inputId" placeholder="Enter ID">
+                </div>
+                <div class="form-group mb-2">
+                    <label for="inputName">Megrendelő neve</label>
+                    <input type="text" class="form-control" id="inputName" placeholder="Enter Name">
+                </div>
+                <div class="form-group mb-2">
+                    <label for="inputDate">Megrendelési dátum</label>
+                    <input type="date" class="form-control" id="inputDate" placeholder="Enter Date">
+                </div>
+                <div class="form-group mb-2">
+                    <label for="inputCim">Cím</label>
+                    <input type="text" class="form-control" id="inputCim" placeholder="Enter Cim">
+                </div>
+                <div class="form-group mb-2">
+                    <select id="inputFajta" class="form-select mt-3 mb-2">
+                        <option value="0" disabled selected>Kávé fajták</option>
+                        <option value="Capuccino">Capuccino</option>
+                        <option value="Espresso">Espresso</option>
+                        <option value="Latte">Latte</option>
+                    </select>
+                </div>
+                <div class="form-group mb-5">
+                    <label for="inputMennyiseg">Mennyiség</label>
+                    <input type="text" class="form-control" id="inputMennyiseg" placeholder="Enter Mennyiség">
+                </div>
+
+                <div class="d-flex flex-wrap justify-content-center">
+                    <button type="submit" class="btn btn-success" id="submitBtn">UPDATE/CREATE</button>
+                    <button type="submit" class="btn btn-danger" id="deleteBtn">DELETE</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+    <style>
+        /*#gallery{
+            display: flex;
+        }*/
+        .img-box{
+            width: 200px;
+            height: 200px;
+
+            display: inline-block;
+            margin: 20px;
+
+            border: 1px solid grey;
+        }
+        .img-box img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position:center;
+        }
+    </style>
+    <script src="script.js"></script>
+</head>
+<body>
+    <div>
+        <form id="addImgForm" >
+            <label for="imgUrl">Image Url:</label>
+            <input id="imgUrl" type="text">
+            <label for="imgAlt">Alt: </label>
+            <input id="imgAlt" type="text">
+            <button id="addBtn">Add</button>
+        </form>
+    </div>
+    <div id="gallery">
+        <div class="img-box">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/1/15/Cat_August_2010-4.jpg" alt="cat">
+        </div>
+    </div>
+
+
+    <table id="myTable">
+
+    </table>
+</body>
+</html>

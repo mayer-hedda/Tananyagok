@@ -1,0 +1,701 @@
+------------------------------ MESTERÉGES INTELLIGENCIA ------------------------------------
+
+
+Mesterséges intelligencia:
+	Az emberi intelligencia (Artificial Intelligence) az emberi intelligencia gépek 
+	általi szimulációja.
+
+	1. Tanulás (Alkalmazkodás)
+	2. Érvelés
+	3. Önkorrekció
+
+	- Gyenge mesterséges intelligencia:
+		Olyan mesterséges intelligencia rendszer, ami egy adott feladat elvégzésére 
+		szolgál, csak egy adott területen képes jól működni.
+	- Erős mesterséges intelligencia:
+		Olyan programozást ír le, amely képes az emberi agy kognitív képességeit
+		leképezni.
+		> Érzékelés, észlelés, emlékezés, képzelés, gondolkodás
+		> Fuzzy logika: képes a másterületen szerzett tudás átültetésére és ezáltal a
+		  probléma megoldására.
+		> El kell tudnia végezni a Turing tesztet és a Kínai szoba tesztet.
+	- Szingularitás:
+		A mesterséges intelligencia olyan fejletté válik, hogy meghaladná az emberi
+		intelligencia képességeit, és eltörölné a határokat az emberiség és a
+		számítógépek között.
+
+	4 típúsa:
+		1. Reaktív gépek:
+			- nincs memóriájuk
+			- feladat specifikusak
+			- nem tud múltbéli tapasztalatokat felhasználni
+			- mintafelismerés, rendszerezés
+		2. Limitált memória:
+			- korlátozott méretű memóriával rendelkeznek
+			- tud múltbéli tapasztalatokat alkalmazni a döntéshozáshoz
+			- tud előrejelzéseket készíteni múltbéli tapasztalatok alapján
+			- érzékeny a kiugró értékekere
+		3. Theory of Mind:
+			- pszichológiai kifejezés
+			- rendelkezik szociális intelligenciával
+			- képes felismerni, megérteni az érzelmeket
+			- képes lesz az emberi szándékok, viselkedések előrejelzésére
+			- kevesebb példa alapján is képes tanulni
+		4. Öntudatosság:
+			- létezés tudata, tudatosság
+			- saját helyzetük megértése
+			- emberi intelligencia szint
+
+
+
+Gépi tanulás (Machine Learning):
+	A gépi tanulás a mesterséges intelligencia olyan alkalmazása, amely lehetővé teszi a
+	rendszerek számára, hogy tanuljanak és fejlődjenek a tapasztalatokból anélkül, hogy
+	kifejezetten erre programoznánk őket.
+
+	- egy speciális mesterséges intelligencia
+	- múltbéli tapasztalatokat használ inputként
+	- ezek alapján új output értéket tud előrejelezni
+	- adatokat gyűjt, felismeri a mintát, outputot készít
+	- idővel egyre gyorsabb lesz
+
+	Alkalmazása:
+		- hirdetési algoritmusok
+		- facebook
+		- youtube
+		- tiktok
+
+	Típúsai:
+		- Felügyelt tanulás: 
+			Data scientist segít a tanulási folyamatban, címkézett adat
+		- Felügyelet nélküli tanulás: 
+			Címkézetlen adatokon próbál kapcsolatokat keresni
+		- Félig felügyelt tanulás: 
+			MIX, Címkézett adatok, felügyelet mellett, szabad értelmezés
+		- Erősített tanulás:
+			Többlépcsős folyamat, pozitív-negatív visszajelzés a data scientist-től
+
+
+
+Mély tanulás (Deep Learning):
+	A mélytanulás a gépi tanulás olyan alkalmazása, amely az emberi tanulási folyamatot
+	utánozza.
+
+	- nem lineáris a tanulási algoritmus
+	- növekvő komplexitás hierarchiája
+	- kisgyerek tanulási folyamatáshoz hasonló
+	- minden hierarchia szinten az előző szintek tudását hasznosítja
+	- tanultak alapján statisztikai modellt hoz létre
+	- ismétlések, amíg nem éri el az elfogadási szintet
+	- a hagyományos gépi tanulás felügyelt
+	- pontosan elmondják milyen tulajdonságokat kell figyelni a döntéshez
+	- a siker a programozó pontosságán is múlik
+	- Deep Learning nem felügyelt, magától keresi a jellemzőket
+	- Gyorsabb és pontosabb
+	- több millió rekordól is képes gyorsan döntést hozni
+	- nagy mennyiségű képzési adat szükségez a pontossághoz
+
+
+
+Gépi látás (Machine Vision):
+	A számítógépek látóképessége, videokamerák, analóg-digitális átalakítás és a
+	digitális jelfeldolgozáson alapul.
+	
+	Működése:
+		- Kamerákkal rögzíti a vizuális információt
+		- Képfeldolgozás, előkészítés
+		- Speciális optika bővebb információkért
+		- Gyártósorok: minőségellenőrzés
+
+
+
+
+
+---------------------------------------- HÁLÓZATOK ----------------------------------------
+
+
+Hálózati eszközök:
+	Router:
+		- A hálózati forgalmat irányítja
+		- Működik LAN és WAN hálózaton is
+		- Torlódásmentes út keresése
+		- Különböző hálózatok összekötése (protokoll)
+		- Belső hálózat alhálózatokra osztása
+		- Célállomás és helyi címek egy táblázatban
+		- Útválasztási szabványok (RIP, BGP, OSPF):
+			> Routing Information Protocol (RIP)
+			> Border Gateway Protocol (BGP)
+			> Open Shortest Path First (OSPF)
+		- Első védelmi vonal
+		- Forgalomszűrés
+		- Saját IP
+
+	HUB:
+		- Több hálózati eszközt kapcsolnak össze
+		- Működik repeater-ként is
+		- Azonos protokollú LAN eszközök
+		- Nincs csomagszűrés és címzés
+		- Az összes eszközre elküldi az adatot
+
+	Switch:
+		- Intelligensebb, mint a HUB
+		- Korlátozott útválasztási információ
+		- Célállomás címét kezeli
+		- Csak a címzett kapja meg az adatot
+		- DDoS (Distributed Denial of Service)
+
+	Bridge:
+		- Nagyobb hálózatok szétbontása
+		- Két fizikai hálózat között helyezkedik el
+		- Kezeli a két hálózat közötti adatforgalmat
+		- Hasonló a HUB-hoz, MAC cím szűrése
+		- LAN címtábla
+		- Nem népszerű manapság
+
+	Access point:
+		- Lehet vezetékes vagy vezetés nélküli
+		- Vezetékes hálózat, vezeték nélküli eszközök
+		- Adó és Vevő egység, WLAN
+		- Több port - bővítés
+		- Lefedettség - több AP
+		- Különböző szabványok
+		- DHCP, SSID
+
+	Repeater:
+		- Felerősíti a fogadott jelet
+		- Jelet fogad, felerősíti és továbbítja
+		- LAN 100 m
+		- Lehet vezeték nélküli is
+
+	Modem:
+		- Modulátor - demodulátor
+		- Digitális jelek továbbítása analóg vonalon
+
+	Gateway (átjáró):
+		- Különböző hálózati modellen alapuló hálózatokat kapcsol össze
+		- Protokollkonverter
+		- Különböző protokoll, szabvány, tartomány
+
+	Firewall:
+		- Biztonsági eszköz
+		- Szűri és felügyeli a kimenő és bejövő forgalmat
+		- Belső hálózat és internek között helyezkedik el
+		- Lehet szoftveres és hardveres tűzfal is
+
+	NIC:
+		- Network Interface Card
+		- Hálózatokhoz való csatlakozásra szolgál
+		- Egyedi azonosító (Media access control)
+		- Számítógép és router között helyezkedik el
+
+
+
+OSI modell:
+
+	Rétegei:
+		- Alkalmazási
+		- Megjelenési
+		- Viszony
+		- Szállítási
+		- Hálózati
+		- Adatkapcsolati
+		- Fizikai
+
+	Fizikai réteg:
+		- Bitek továbbítása a kommunikációs csatornán
+		- Feszültségszintek:
+			> Logikai magas szint
+			> Logikai alacsony szint
+		- Időzítések
+		- Modulációk, bitek kódolása
+		- Kapcsolat létrehozása, bontása
+		- Tervezési szempontok:
+			> Interfész mechanikai, elektromos eljárási rendje
+			> Fizikai átviteli közeg
+		- Csatlakozók
+
+	Adatkapcsolazi réteg:
+		- A fizikai átviteli hibáinak elfedése a hálózati réteg elől
+		- Keretezés:
+			> Adatfolyam tördelése
+			> Küldés sorrendben
+			> Nyugtázás
+			> Kerethatárok felismerése
+		- Forgalom szabályozása:
+			> Elárasztás elleni védelem (gyors adó, lassú vevő)
+			> Adó tájékoztatása vevő szabad pufferjeiről
+		- Összeköttetés iránya (Halflex, duplex)
+		- Osztott csatornához való hozzáférés szabályozása
+
+	Hálózati réteg:
+		- Alhálózat működését irányítja
+		- Milyen útvonalon kell küldeni?
+			> Statikus útvonal
+			> Dinamikus útvonal
+		- Csomóponti torlódás szabályozása
+		- A szolgáltatás minősége
+		- Eltérő hálózatok összekapcsolása:
+			> Eltérő címzési mód
+			> Eltérő csomagméretek
+
+	Szállítási réteg:
+		- Adatok fogadása a viszony rétegtől
+		- Darabolás - hálózati réteg
+		- Hibamentes átvitel biztosítása
+		- Átviteli probléma elrejtése
+		- Végpontok közötti tényleges kommunikáció
+
+	Viszonréteg:
+		- Két gép közi viszony (session) létrehozása
+			> pl. bejelentkezés egy alkalmazásba
+		- Párbeszédirányítás
+		- Vezérjel kezelés
+		- Szinkronizáció
+
+	Megjelenítési réteg:
+		- Az átvitt információhoz kapcsolódó szintaktikai kérdések
+		- Az átvitt információhoz kapcsolódó szemantikai kérdések
+		- Regionális szempontok
+		- Karakterkódolások (pl.: ASCII, UniCode)
+
+	Alkalmazási réteg:
+		- Célja a felhasználó kiszolgálása
+		- Protokollok gyűjteménye
+
+
+
+TCP/IP modell:
+	- Az ARPANET problémái
+	- Műholdas, rádiós hálózatok
+	- Tervezési szempontok:
+		> Különböző hálózatok összekapcsolása
+		> Redundáns, hibatűrő hálózat
+		> Széles körben alkalmazható, rugalmas hálózat
+	- Csomagkapcsolt hálózat
+	- Összekötés nélküli rétegen alapul
+	- Különböző hálózatok között is működőképes
+	
+	Rétegei:
+		- Alkalmazási réteg
+		- Szállítási réteg
+		- Internetréteg
+		- Kapcsolati réteg
+
+	Kapcsolati réteg:
+		- Adatátviteli elemek képességei
+		- Meg kell felelni az összekötés nélküli internetréteg igényeinek
+		- Csatlakozási felület a hosztok és az átviteli összeköttetés között
+		- Nem definiálja az internet réteg alatti réteg pontos feladatait
+		- IP csomagok továbbítására alkalmas hálózat
+		- Hosztonként eltérő protokollok lehetnek
+
+	Internetréteg:
+		- Összeköttetés nélküli inernetwork réteg
+		- Az OSI modell hálózati rétegének felel meg
+			> IP csomagok kézbesítése
+			> Csomagok útvonalának meghatározása
+			> Torlódásvédelem
+		- Szabványos csomagformátum és protokoll
+			> Internet Protocol (IP)
+		- Képes legyen bármilyen hálózatba csomagot küldeni
+		- Képes legyen csomagokat továbbítani egy másik hálózatba
+
+	Szállítási réteg:
+		- Feladata az OSI szállítási rétegéhez hasonló
+		- Forrás és cél közti párbeszéd biztosítása
+		- Szállítási protokollok:
+			> Átvitelvezérlő protokoll (TCP)
+				- megbízható, összeköttetés alapú protokoll
+				- hibamentes bájtos átvitel két gép között
+				- forgalomszabályozás (elárasztás ellen)
+			> Felhasználói datagram protokoll (TCP)
+				- nem megbízható, összeköttetés nélküli protokoll
+				- kliens-szerver típusú kérés-válasz (egylövetű)
+				- ahol a gyors válasz fontosabb a pontos válasznál
+
+	Alkalmazási réteg:
+		- Az OSI modell alkalmazási rétegéhez hasonló
+		- Nincs viszony és megjelenítési réteg	
+		- Eredetileg a következő protokollokat tartalmazza:
+			> Virtuális terminál (Telnet)
+			> Fájltranszfer (FTP)
+			> Elektronikus levelezés (SMTP)
+		- Manapság számos további protokollt tartalmaz:
+			> Domain Name Service (DNS)
+			> Hyper Text Transfer Protocol (HTTP)
+			> Network News Transfer Protocol (NNTP)
+
+
+
+OSI modell VS TCP/IP modell:
+
+OSI								TCP/IP
+
+Tapasztalatlan tervezők					Protokollhoz Modell
+Modellhez Protokollok					Csak az adott protokollokkal életképes
+Kellően általános modell				Gyakorlatban nem létező modell
+Nem befolyásolja a protokoll készleteket		Elterjedt, használható protokollok
+Elemzésre, oktatásra alkalmas
+Nem életképes protokollok
+
+
+
+
+
+------------------------------- INFORMATIKAI BIZTONSÁG ------------------------------------
+
+
+IT biztonság:
+	Adatbiztonság:
+		- A digitális adatok védelme a lopás, a korrupció vagy a jogosulatlan 
+		  hozzáférés ellen a digitális adatok teljea életciklusa során
+		- A tárolóeszközök és a hardver fizikai biztonságától kezdve, az adminisztratív
+		  hozzáférésen keresztül a szoftveres biztonsági tényezőkig mindent magába
+		  foglal
+	
+	Mi ellen védekezünk?
+		- Véletlenek, hozzá nem értés, hiba
+		- Ártó szándékú program (Malware):
+			> Vírus
+			> Trójai
+			> Férgek
+			> Kiskapuk
+		- Ártó szándékú emberek
+
+	Védekezés:
+		- Biztonsági mentés
+		- Automatikus mentés
+		- Visszaállítási pontok
+		- Megfelelő jogosultsági szabályzat
+		- Megfelelő eszközhasználati szabályzat
+		- Megfelelő víruskezelési eljárások
+
+	Adatfolyam támadása:
+		- Megszakítás (Interruption)
+		- Elfogás (Interception)
+		- Módosítás (Modification)
+		- Gyártás (Fabrication)
+
+	Támadók és célcsoportjaik:
+		- Kik lehenek támadók?
+			> Kormányok, titkosszolgálatok, kémek
+			> Terroristák
+			> Ipari kémek, vállalkozások
+			> Scammerek, csalók
+		- Jellemzőik (scammerek kivételével):
+			> Szervezettség
+			> Felsőbb irányítás
+			> Kitartó támadások
+			> Széles eszköztár
+			> "low and slow" megközelítés
+
+	Leggyakoribb támadási típúsok:
+		- Maleware: kártékony szoftver
+		- Phising attack (adathalász támadás): hivatalosnak tűnő üzenetek, emailek,
+		  kártékony linkek
+		- Jelszó támadás: Keylogger, shoulder surfing, Dictionary attacks, brute force
+		- Man in the Middle: Két fél közti kommunikációs csatornát hallgatja le a 
+		  támadó
+		- SQL injection: weboldalak kéréseibe kártékony SQL lekérdezéseket írnak
+		- DoS/DDos ((Distributed) Denial of Service): Terheléses támadás
+		- Zero-Day Exploit: Hálózat, rendszer, alkalmazás üzemeltetője hibát talál, de
+		  nem tudja időben kijavítani. Userek tájékoztatása a sebezhetőségről --> 
+		  Hackerekhez is eljut
+
+	Védekezés, megelőzés:
+		- Maleware: vírusírtók, tűzfal, rendszeres frissítések, felhasználói magatartás
+		- Phising attack: anti-phising eszközök, email szűrők, spam filter
+		- Jelszó támadások: nehezen kitalálható jelszó, password policy, gyakori
+		  jelszócsere, próbálkozások számának korlátozása, kétfaktor
+		- Man in The Middle: nyilvános wifi kerülése, HTTPS webcímek
+		- SQL injection: bement validálása, hozzáférés korlátozása
+		- DoS/DDoS: forgalomfigyelés, sebességfigyelés
+		- Zero-Day Exploit: patch menedzsment, vállalati védelmi stratégiák
+
+
+
+Social Engineering (Pszichológiai manipuláció):
+	Social Engineering:
+		- Emberi tulajdonságok kihasználása:
+			> Segítő szándék
+			> Konfliktuskerülés
+			> Emberi érzelmek
+		- Módszerei:
+			> Elicitation (információ kicsikarása)
+			> Pretexting (színlelés)
+			> Technikai megoldások
+
+	Lépések:
+		- Fontos a fokozatosság, a lépésről lépésre haladás
+			> A bizalom kiépítése teljesen ártalmatlan témával/kéréssel
+			> Ha már segítettünk valakinek, könnyebben segítünk újra és újra
+		- Cél: általában egy komolyabb támadás előkészítése
+			> Ez lehet technikai alapú támadás
+			> Újabb Social Engineering alapú támadás
+		- Lépések:
+			> Előkészítés, információgyűjtés
+			> "Személyes" kapcsolat kialakítása
+			> A már működő kapcsolat felhasználása
+
+	Ki lehet Social Engineer?
+		- Hackerek
+		- Kémek
+		- Személyiség tolvajok
+		- Penetration testers
+		- Megbántott, elbocsátott alkalmazottak
+		- Manipulátorok
+		- Ügynökök
+		- Korményok
+		- Gyerekek
+
+	Információ szerzés:
+		- Segítségkérés
+			> Indoklás, okok megadása
+			> Ügyfelekkel közvetlen kapcsolatú munkatársak
+				- Recepció, Help Desk
+		- Segítségnyújtás:
+			> Reverse Social Engineering
+		- Nyilvános források!
+		- Dumpster Diving kukázás
+
+	Információ szerzés (megszemélyesítés):
+		- Új alkalmazott
+		- "Nagyfőnök" félelem keltés
+		- "A főnök küldött"
+		- Support team / help desk megszemélyesítése
+		- Piggybacking - más jogosultságainak használata
+		- Nyeremények, ajándékok
+		- Adatgyűjtő weboldal
+		- Adathalász weboldalak phishing
+		- Vishing (Phone phishing)
+		- SMiShing
+		- Spear phishing, Whaling
+		- Trójai programok
+
+	Technikai eszközök (hardver):
+		- Keyloggerek
+			> Naplózó szoftverek
+			> Hardver eszközök
+		- Baiting (DVD, Pendrive)
+		- Engedély nélküli AP
+
+	Bejutás védett helyekre:
+		- Shoulder Surfing
+		- Tailgating
+		- Alapértelmezett kódok
+			> Kaputelefon
+		- Hamis azonosítók
+			> Smartcard, proximity kártyák
+		- Álruha, egyéb kiegészítők
+
+	Fontos részletek:
+		- Bizalom, szavahihetőség, hitelesség
+		- Szaknyelv, szakzsargon
+		- Megjelenés:
+			> Stílus
+			> Munkaruha, eszközök
+		- Körültekintő előkészítés
+			> Hierarchia, céges struktúra ismerete
+			> Fontosabb vezetők, kollégák neve, fényképe
+		- Helyismeret
+
+	Védekezési lehetőségek:
+		- Szabályzatok:
+			> Szabályok betartása, ellenőrzés
+			> Tájékoztatás
+		- Helyzetelemzés, sebezhetőségek keresése
+			> IT biztonsági előírások felülvizsgálata
+			> Penetration teszt (pentest)
+		- Tesztek, felülvizsgálatok ismétlése
+		- Képzés, képzés, képzés
+
+	Fontosabb szabályzatok:
+		- Adatok osztélyozása, bizalmas adatok kezelése
+		- Humán erőforrások kezelés
+		- Beléptetés, vendégek kezelése
+		- Munkahelyek kialakítására vonatkozó szabályok
+		- Számítógépekkel kapcsolatos szabályok
+			> Hordozható eszközökre vonatkozó szabályok
+			> Leselejtezett eszközök kezelése
+		- Adathordordozókra vonatkozó szabályok
+		- Emailek kezelésének szabályai
+		- Telefonhívásokra vonatkozó szabályok
+		- Hulladékkezelés, megsemmisítés
+
+
+
+Keylogger:
+	- Egy szoftver, ami elmenti a felhsználó által gépelt billentyűket és elküldi egy
+	  távoli emailre vagy távoli szerverre.
+
+
+
+Cloud Computing Services:
+	Mi az az As a Service?
+		- Hagyományos tulajdonosi modell helyett vevő-szállító, ügyfél-szolgáltató 
+		  kapcsolat
+		- Nyújtott szolgáltatások köré épül
+		- Árú és ügyfél központúság helyett szolgáltatás központú társadalom
+		- Ügyfelek kerülnek a központba
+		- Értékközvetítő szervezetek
+		- Az ügyfél nem megveszi a szükséges eszközt, hanem szolgáltatásként veszi azt
+		  igénybe
+		- On demand felhasználás
+		- Költséghatékonyság
+		- Termelékenység
+		- Példa: Nyomtató as a Service
+			Nyomtató: 30.000 ft
+			Tinta: 15.000 ft
+			Papír: 2.000 ft
+			Nyomtatós cég: 30 ft/oldal
+
+	B2B - B2C:
+		- B2B - Üzlet az üzlethez modell: 
+			> Cégek, szervezetek másik cégeknek nyújtanak szolgáltatást
+			> Példa: Termelő cég - Szállítmányozó cég, Karbantartó cégek, Takarítók
+		- B2C - Üzlet az ügyfélhez modell: 
+			> Cégek, szervezetek nyújtanak szolgáltatást lakossági ügyfeleknek
+			> Szerelők, Car as a Service, Ride share
+
+	*aaS Előnyök:
+		- On Demand szolgáltatást
+		- Üzemeltetési terhek, költségek átszervezése
+		- Gyorsaság, egyszerűség
+		- Költséghatékonyság
+		- Termékek kapacitásának hasznos kihasználása
+		- Skálázhatóság
+
+	Sofrware as a Service (SaaS):
+		- Szoftver szolgáltatásként
+		- Telepítés nélkül azonnal használható
+		- Update, patch automatikus
+		- Technikai problémákat a szolgáltató kezeli
+		- Alacsony hardver követelmények
+		- Példa:
+			> Microsoft Office 365
+			> Netflix
+			> Zoom
+			> Google Drive
+
+		- Hátrányok?
+			> Biztonság
+			> Szolgáltató váltás
+			> Verziók követése
+
+	Platform as a Service (PaaS):
+		- Teljes Platform szolgáltatása, Hardver és Szoftver
+		- Nem kell foglalkozni az OP rendszerrel, tárhellyel, szoftverrel
+		- Skálázható
+		- Jellemzően alkalmazás fejlesztésben, API alapú szolgáltatások
+		- Webservice
+		- Adatbázis
+		- Példa:
+			> Microsoft Azure
+			> Google Cloud
+			> Oracle
+			> AWS (Amazon)
+			> Nethely.hu
+		- Hátrányok:
+			> Elérhetőség
+			> Migrálás
+			> Szűk konfigurálási lehetőség
+
+	Infradtructure as a Service (IaaS):
+		- Infrastruktúra biztosítása szolgáltatásként
+		- Vizualizáció, erőforrás szolgáltatás
+		- Tárhely, Szerver, Hálózati erőforrás
+		- Szabadon telepíthető szoftverek
+		- Nagy méretű személyre szabhatóság
+		- Skálázhatóság
+		- Példa:
+			> Google Computer Engine
+			> AWS
+			> Microsoft Azure
+		- Hátrányok:
+			> Rendszergazdai szerep a felhasználóé
+			> Felhasználó konfigurál mindent
+			> Sok plusz munkával járhat
+
+	Felhőszolgáltatások csoportosítása tulajdonos személye szerint
+		- Nyilvános felhő: Bárki használhatja, erődorrások a szolgáltató tulajdonát
+		  képzik
+			> Példa: Google Drive, Microsoft Office 365
+		- Privát/magán felhő: A felhasználó a tulajdonosa a teljes rendszernek.
+		  Korlátozott hozzáférés. Általában céges erőforrások távoli elérésére
+		  használják
+			> Példa: NAS, Céges erőforrások
+		- Hibrid felhő: Magánfelhő és Nyilvános felhő közötti átmenet. Külsős cég
+		  telepíti, üzemelteti a szolgáltatást, de a cég menedzseli, a cég birtokolja a
+		  rendszert.
+
+	On Premises (helyben):
+		- Applications (Alkalmazások): Te irányítod
+		- Data (Adatok): Te irányítod
+		- Runtime (Futásidő): Te irányítod
+		- Middleware (Köztes szoftver): Te irányítod
+		- Operating System (Operációs rendszer): Te irányítod
+		- Virtualisation (Virtualizáció): Te irányítod
+		- Servers (Szerverek): Te irányítod
+		- Storage (Tárolás): Te irányítod
+		- Networking (Hálózat): Te irányítod
+
+	Infrastructure as a Service (Infrastruktúra mint szolgáltatás):
+		- Applications (Alkalmazások): Te irányítod
+		- Data (Adatok): Te irányítod
+		- Runtime (Futásidő): Te irányítod
+		- Middleware (Köztes szoftver): Te irányítod
+		- Operating System (Operációs rendszer): Te irányítod
+		- Virtualisation (Virtualizáció): Microsoft által kezelt
+		- Servers (Szerverek): Microsoft által kezelt
+		- Storage (Tárolás): Microsoft által kezelt
+		- Networking (Hálózat): Microsoft által kezelt
+
+	Platform as a Service (Platform mint szolgáltatás):
+		- Applications (Alkalmazások): Te irányítod
+		- Data (Adatok): Te irányítod
+		- Runtime (Futásidő): Microsoft által kezelt
+		- Middleware (Köztes szoftver): Microsoft által kezelt
+		- Operating System (Operációs rendszer): Microsoft által kezelt
+		- Virtualisation (Virtualizáció): Microsoft által kezelt
+		- Servers (Szerverek): Microsoft által kezelt
+		- Storage (Tárolás): Microsoft által kezelt
+		- Networking (Hálózat): Microsoft által kezelt
+
+	Software as a Service (Szoftver mint szolgáltatás):
+		- Applications (Alkalmazások): Microsoft által kezelt
+		- Data (Adatok): Microsoft által kezelt
+		- Runtime (Futásidő): Microsoft által kezelt
+		- Middleware (Köztes szoftver): Microsoft által kezelt
+		- Operating System (Operációs rendszer): Microsoft által kezelt
+		- Virtualisation (Virtualizáció): Microsoft által kezelt
+		- Servers (Szerverek): Microsoft által kezelt
+		- Storage (Tárolás): Microsoft által kezelt
+		- Networking (Hálózat): Microsoft által kezelt
+
+
+
+
+
+----------------------------------------- GIT ---------------------------------------------
+
+
+Git:
+	- A GIT egy verziókezelő rendszer, amely lehetővé teszi a szoftverfejlesztől számára, 
+	  hogy kövessék és nyomonkövessék a kód változásait.
+	- Könnyedén visszatérhetünk a korábbi verziókhoz.
+	- A Distributed Version Control (DVC) rendszer amely azt jelenti, hogy minden 
+	  fejlesztőnek saját másolata van a teljes kódtárról --> önállóan is dolgozhatunk
+
+Mit csinál a Git?
+	- Projektek kezelése adattárral
+	- Projekt klónozás helyi másolatokon való munkához
+	- Változtatások vezérlése, nyomonkövetése az előkészítéssel és véglegesítéssel
+	- Elágazások és egyesítések:
+		> Lehetővé teszik a projekt különböző részein végzett munkát
+	- Projekt legújabb  verziójainak lekérése egy helyi példányba
+	- Leküldi a helyi frissítéseket a projektbe
+
+Mi a GitHub?
+	- A Git és a GitHub nem ugyanaz
+	- A GitHub olyan eszközöket készít amik Git-et használnak
+	- A forráskód legnagyobb gazdagépe a világon, 2018 óta a Microsoft tulajdonában van

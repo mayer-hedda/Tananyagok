@@ -1,0 +1,85 @@
+body {
+    background-image: url(../img/erdo.jpg);
+    color: #004400;
+}
+
+body .cimsor {
+    max-width: 60%;
+    margin: auto;
+}
+
+body .tartalom {
+    max-width: 62%;
+    margin: auto;
+    font-size: 18px;
+    margin-bottom: 100px;
+}
+
+body .beljebb {
+    padding: 0 35px;
+    padding-right: 50px;
+}
+
+body .beljebb2 {
+    padding: 0 55px;
+    padding-right: 50px;
+}
+
+body a {
+    color: green;
+}
+
+.gif {
+    display: inline;
+    float: right;
+    max-height: 110px;
+}
+
+.kep1 {
+    margin-left: 80px;
+    display: inline-block;
+    max-height: 100px;
+}
+
+.kep {
+    display: inline-block;
+    max-height: 100px;
+    max-width: 100%;
+}
+
+table {
+    border: 2px solid #004400;
+    margin: auto;
+    width: 480px;
+}
+
+table td {
+    border: 1px solid #004400;
+    padding: 8px 7px;
+}
+
+table td .left {
+    text-align: left;
+}
+
+h1, h2{
+    text-align: center;
+}
+
+hr {
+    border: 2px solid #004400;
+    border-radius: 10px;
+}
+
+#elso {
+    width: 120px;
+    text-align: center;
+}
+
+#right {
+    text-align: right;
+}
+
+#center {
+    text-align: center;
+}
