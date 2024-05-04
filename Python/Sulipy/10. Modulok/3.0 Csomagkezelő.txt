@@ -1,0 +1,5 @@
+pip install abc                         # abc nevű csomag letöltése
+pip install --upgrade abc               # abc nevű csomag aktualizálása
+pip uninstall abc                       # abc nevű csomag törlése
+pip show abc                            # abc nevű csomag csomagfüggőségeinek megvizsgálása
+pip list                                # a letöltött csomagok listájának megjelenítése

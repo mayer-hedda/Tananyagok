@@ -1,0 +1,11 @@
+javascript gyorstalpaló videó:
+	https://www.youtube.com/watch?v=f3tGk_9eUJ0
+
+html, css videó:
+	https://www.youtube.com/watch?v=CtrMhe5Azys
+
+html források:
+	https://people.inf.elte.hu/csa/html/alapok.htm
+	http://szatyika.hu/files/Vari-Csaba---HTML-programozas-az-alapoktol.pdf
+	http://www.lazarsuli.hu/legujabb/informatika/html_alapok.pdf
+	https://webiskola.hu/html-tananyag/mi-az-a-html-a-html-bemutatasa/

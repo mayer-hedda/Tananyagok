@@ -1,0 +1,7 @@
+Kata    Győr    17
+Tamás   Budapest    21
+Álmos   Ajka    18
+Edina   Sopron  20
+Gergő   Debrecen    22
+Dóra    Szeged  15
+Málna   Pécs    15

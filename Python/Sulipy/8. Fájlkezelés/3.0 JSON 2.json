@@ -1,0 +1,19 @@
+{
+  "diakok": [
+    {
+      "nev": "Kis P\u00e9ter",
+      "e-mail": [
+        "kiss@suli.hu",
+        "petike@otthoni.hu"
+      ],
+      "kollegista": true,
+      "osztaly": "10.C"
+    },
+    {
+      "nev": "Nagy Zo\u00e9",
+      "e-mail": null,
+      "kollegista": false,
+      "osztaly": "10.C"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+------------------------------------------ JAVA FEJLESZTÉS ------------------------------------------
+
+A java JDK:
+
+	Fontosabb elérhető technológiák:		> Java SE (Standard Edition)
+								általános célokra
+
+							> Java ME (Micro Edition)
+								Mobil és beépített eszközökre
+
+							> Java EE (Enterprise Edition)
+								Szerveroldali programozáshoz
+
+							> Java FX
+								Egy script nyelv asztali alkalmazások gyors 
+								fejlesztéséhez
+
+
+	JRE - csak futtatásra alkalmas
+	JDK - futtatásra és fejlesztésre is használható (tartalmazza a JRE-t)
+
+
+
+Java fordító és futtató:
+
+	Fordító:
+		> A Java programok .java kiterjesztéssel készülnek -> lefordításához a javac 
+		   parancs használható, ez bájtkódra fordít (a futtató fordít gépi kódra)
+
+
+	Futtató:
+		> Java programokat java paranccsal futtathatunk -> alapértelmezetten .class fájlokat tud 
+		   létrehozni
+
+		> Az elkészült programokat azonban .jar kiterjesztésű állománnyal szokás terjeszteni.
+
+	

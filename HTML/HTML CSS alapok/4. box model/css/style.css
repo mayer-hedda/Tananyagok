@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&family=Roboto:ital,wght@1,100&display=swap');
+* {
+    box-sizing: border-box; /* A padding értéket befelé fogja levonni, nem lesz nagyobb a doboznak a nagysága a padding értékkel. */
+}
+
+body {
+    background: url('../pics/bg-img.gif');
+    margin: 0; /* Külső margót ad. */
+}
+
+.box {
+    background-color: white;
+    max-width: 600px; /* Általában nem a szélességet adjuk, meg, hanem a max szélességet a reszponzivitás miatt. */
+    width: 90%; /* Így nem fog rátapadni az oldalunknak a szélére, hanem csak a látott kép megadott %-a lesz a tartalom. */
+    
+    /* padding: 20px 0px 20px 0px; */ /* Ezt is tudom oldalanként külön kezelni. Egysoros megadásnál sorrend: top, right, bottom, left. */
+    /* padding: 20px 0; --> Ez ugyanazt csinálja mint e felette levő */
+    
+    /*
+    Keret szélessége:
+        border-width: 10px;
+    Keret típúsa (lehet még dotted/pontozott, dashed/szaggatott)
+        border-style: solid;
+    Keret színe:
+        border-color: gray;
+    */
+    border: 10px solid gray; /* Ez ugyanazt csinálja, csak egy sorban. (Sorrend: width, style, color) */
+    /* Egyesével is megadhatjuk:border: 
+    border-left: 10px solid gray;
+    border-top: 10px solid gray;
+    border-right: 10px solid gray;
+    border-bottom: 10px solid gray; */
+    
+    margin: 40px auto; /* Ugyanúgy működik mint a padding. Sorrend: top, right, bottom, left. */
+    box-shadow: 0 0 30px rgba(0, 0, 0, .7); /* Árnyékot tudunk adni vele. Adatok: vízszintes eltolás, függőleges eltolás, árnyék nagysága, árnyék színe. */
+}
+
+.box .box-content {
+    padding: 20px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.box .box-content p {
+    color: #535353;
+}
+
+.box .box-content h2 {
+    margin: 0;
+    color: #32859d;
+}
+
+.box .box-content .details {
+    margin: 16px 0 0 0;
+    /* margin-top: 16px; */
+}
+
+.box .box-content .details a {
+    background: #feb127;
+    color: black;
+    padding: 5px 10px;
+    display: inline-block; /* Ezzel a linknek a "formátumát" tudom megadni. (inline, block, inline-block) */
+    text-decoration: none; /* Ezzel a link dekorációit tudjuk állítani, például eltűntetni az aláhúzást. */
+}
+
+.box .header-image {
+    background: url('../pics/image1.jpg') top center;
+    height: 200px; /* Ezzel állítjuk be a magasságát a "doboznak" */
+
+}
+
+.box.box-2 .header-image { /* Hierarchia megadása. */
+    background-image: url('../pics/image2.jpg');
+}

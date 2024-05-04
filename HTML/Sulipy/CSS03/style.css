@@ -1,0 +1,42 @@
+button {
+    margin: 30px;
+    padding: 10px 20px;
+    border: rgb(36, 44, 46) 1px solid;
+    border-radius: 5px;
+    box-shadow: 0px 5px 10px gray;
+}
+
+button:hover {
+    cursor: pointer;
+    color: white;
+}
+
+button.szurke-gomb:hover {
+    background-color: rgb(58, 76, 80);
+}
+
+button.piros-gomb:hover {
+    background-color: rgb(99, 0, 0);
+}
+
+button:active {
+    box-shadow: 0px 2px 10px gray;
+}
+
+.szurke-gomb {
+    background-color: rgb(175, 201, 206);
+}
+
+.piros-gomb {
+    background-color: rgb(255, 104, 104);
+}
+
+.kis-gomb {
+    font-size: 14px;
+    padding: 8px 15px;
+}
+
+.nagy-gomb {
+    font-size: 24px;
+    padding: 10px 20px;
+}

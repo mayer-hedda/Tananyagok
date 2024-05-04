@@ -1,0 +1,40 @@
+/* A felhőből hívunk egy betűtípúst, amit a "fonts.google.com" linken találhatunk */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap');
+
+html {
+    height: 100%;
+}
+body {
+    /*
+    Háttér színe:
+        background-color: green; 
+    Háttér képe:
+        background-image: url('../pics/bg-img.png'); 
+    Háttér ismétlése:
+        background-repeat: repeat;
+    Háttér egyszer mindenképpen vágatlanul meg fog jelenni a háttérben:
+        background-size: contain;
+    Háttér elhelyezése:
+        background-position: center center;
+    Háttér fixálása (görgetésnél a háttérkép nem mozdul):
+        background-attachment: fixed;
+    */
+    background: url('../pics/bg-img.gif') green repeat center center fixed; /* Egybevontuk az előbbi értékeket egy sorba. Itt nincs sorrend. */
+
+    /*
+    Betű színe:
+        color: white;
+    Betű stílusa (dőlt betű):
+        font-style: italic;
+    Betűk vastagsága (félkövér betű):
+        font-weigt: bold;
+    Betű mérete:
+        font-size: 20px;
+    Sorok közti távolság:
+        line-height: 27px;
+    Betűtípús megadása:
+        font-family: 'Roboto', sans-serif;
+    */
+    color: white;
+    font: italic bold 20px/27px 'Roboto', sans-serif; /* Ugyanez egy sorban. Sorrend: style, variant, weight, size, family */
+}
