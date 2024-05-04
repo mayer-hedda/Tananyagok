@@ -1,0 +1,9 @@
+body {
+    background-color: rgb(32, 33, 32);
+}
+
+.date {
+    color: white;
+    text-align: center;
+    font-size: 50px;
+}

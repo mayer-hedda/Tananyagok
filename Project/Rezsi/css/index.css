@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
+
+:root {
+    --bg: url(../img/bg-img.avif);
+    --bgl: #303e49; 
+    --bglh: #303e4955;
+    --b: #96c020;
+    --bh: #7ca116;
+    --err: rgb(115, 25, 25);
+    --errh: rgba(115, 25, 25, 0.187);
+}
+
+body {
+    background-color: #20292e;
+    margin: 0;
+    color: #a7b6b8;
+    font-family: 'Comfortaa', cursive;
+    overflow-y:hidden;
+}
+
+nav {
+    background-image: var(--bg);
+    background-size:auto;
+    height: 100vh;
+}
+
+hr {
+    width: 80%;
+    margin: auto;
+}
+
+.a {
+    margin: auto;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.active {
+    font-weight: 700;
+    font-size: large;
+    width: 80%;
+    padding: 40px;
+    margin: auto;
+    background-color: var(--bglh);
+}
+
+.logout {
+    margin-top: 290px;
+}
+
+.text {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.text:hover {
+    color: var(--err);
+    background-color: var(--errh);
+}
+
+
+
+
+
+
+h3 {
+    margin-bottom: 20px;
+    margin-top: -20px;
+    font-weight: 600;
+}
+
+form {
+    background-color: rgb(81, 81, 81);
+    width: max-content;
+    padding: 50px;
+    border-radius: 10px;
+    border: 1px solid black;
+    margin-bottom: 70px;
+}
+
+input, .input-span {
+    font-size: large;
+    margin: 5px;
+    border-radius: 5px;
+    padding: 5px;
+    font-family: 'Comfortaa', cursive;
+}
+
+.inp {
+    width: 538px;
+}
+
+.button {
+    background-color: rgb(66, 105, 72);
+    border: 1px solid rgb(66, 105, 72);
+    width: 150px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: -20px;
+}
+
+.button:hover {
+    background-color: rgb(48, 71, 51);
+    border: 1px solid rgb(48, 71, 51);
+}
+
+.pg {
+    width: 200px;
+    transform: rotate(270deg);
+    height: 70px;
+    margin-top: 80px;
+    margin-left: -60px;
+    background-color: rgb(72, 96, 76);
+}
+
+.pgb {
+    background-color: rgb(41, 58, 39);
+    font-size: 20px;
+}
+
+.pgt {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(90deg);
+}

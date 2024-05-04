@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
+
+:root {
+    --bg: url(../img/bg-img.avif);
+    --bgl: #303e49; 
+    --bglh: #303e4955;
+    --b: #96c020;
+    --bh: #7ca116;
+    --err: rgba(115, 25, 25, 0.4);
+    --errh: rgba(115, 25, 25, 0.6);
+}
+
+body {
+    background-color: #172028;
+    margin: 40px;
+    color: azure;
+    font-family: 'Comfortaa', cursive;
+}
+
+nav {
+    background-image: var(--bg);
+    background-size:auto;
+    height: 100vh;
+}
+
+hr {
+    width: 80%;
+    margin: auto;
+}
+
+.a {
+    margin: auto;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.active {
+    font-weight: 700;
+    font-size: large;
+    width: 80%;
+    padding: 40px;
+    margin: auto;
+    background-color: var(--bglh);
+}
+
+.logout {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    width: 80%;
+    background-color: var(--err);
+    /* margin-top: 5px; */
+    height: 106px;
+}
+
+.logout:hover {
+    background-color: var(--errh);
+    font-size: larger;
+}
+
+
+
+
+
+
+
+nav {
+    text-align: right;
+    margin-bottom: 50px;
+}
+
+.newTask {
+    font-size: medium;
+    background-color: rgb(81, 81, 81);
+    color: azure;
+    border-radius: 7px;
+    padding: 7px;
+    font-family: 'Comfortaa', cursive;
+}
+
+.newTask:hover {
+    background-color: rgb(66, 66, 66);
+    cursor: pointer;
+}
+
+.addTask {
+    border: 1px solid black;
+    width: 400px;
+    height: 350px;
+    padding: 20px;
+    background-color: rgb(55, 55, 55);
+    border-radius: 10px;
+    margin: 10px;
+    font-size: large;
+}
+
+.addTask > input, option, select {
+    font-size: large;
+    margin: 5px;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.addTask > .taskName, option, select , .addTask > .taskDescription{
+    margin-top: 15px;
+    margin-left: 80px;
+    font-family: 'Comfortaa', cursive;
+}
+
+.addTask > .close {
+    margin-left: 370px;
+    background-color: rgb(139, 82, 82);
+    height: 30px;
+    width: 30px;
+    color: azure;
+    font-family: 'Comfortaa', cursive;
+}
+
+.addTask > .close:hover {
+    cursor: pointer;
+    background-color: rgb(101, 60, 60);
+}
+
+.addTask > .add {
+    background-color: rgb(78, 121, 81);
+    color: azure;
+    margin-left: 265px;
+    font-family: 'Comfortaa', cursive;
+}
+
+.addTask > .add:hover {
+    background-color: rgb(57, 82, 59);
+    cursor: pointer;
+}
+
+.errors {
+    text-align: center;
+    background-color: rgb(139, 82, 82);
+    padding: 10px;
+    border-radius: 7px;
+    width: max-content;
+    margin: auto;
+    margin-top: 30px;
+}

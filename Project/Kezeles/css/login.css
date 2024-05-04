@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    --v1: calc(max(9vw, 11vh));
+}
+body{
+    background: black;
+    overflow: hidden;
+    min-height: 200vh;
+}
+.container{
+    position: fixed;
+    height: 100vh;
+    overflow: hidden;
+}
+.row{
+    display: inline-flex;
+    margin-top: calc(var(--v1) * -0.32);;
+    margin-left: calc(var(--v1) * -0.5);;
+}
+
+.hexagon{
+    position: relative;
+    width: var(--v1);
+    height: calc(var(--v1) * 1.1);
+    margin: calc(var(--v1) * 0.04) calc(var(--v1) * 0.02);
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    background: linear-gradient(90deg, rgba(25, 25, 25, 0.7) 50%, rgba(10,10,10,0.85) 50%);
+    background: rgba(15, 15, 15, 1);
+    /* optional short text */
+    text-align: center;
+    color: rgba(15, 15, 15, 1);
+    line-height: calc(var(--v1) * 1.1);
+    font-size: 2vw;
+    transition: 1s;
+}
+.blank{
+    background: transparent;
+}
+.row:nth-child(even){
+    margin-left: calc(var(--v1) * 0.02);
+}
+.curser{
+    position: absolute;
+    width: calc(var(--v1) * 2.5);
+    height: calc(var(--v1) * 2.5);
+    border-radius: 50%;
+    animation: anim 2s linear infinite;
+    visibility: hidden;
+/*     transition: .1s; */
+    transform: translate(-50%, -50%);
+/*     box-shadow: 0px 0px 100px rgba(0,255,0,1); */
+}
+@keyframes anim{
+    0%{
+        filter: hue-rotate(0deg);
+    }
+    100%{
+        filter: hue-rotate(0deg);
+    }
+}
+body:hover .curser{
+    background: radial-gradient(circle, rgba(255,255,255,0.25) 0%, rgba(0,255,0,0) 70%);
+    visibility: visible;
+}
+
+
+
+
+
+
+:root {
+    --bg: #212121;
+    --bgl: #414141; 
+    --bglh: #313131;
+    --b: #96c020;
+    --bh: #7ca116;
+    --err: rgb(115, 25, 25);
+    --c: rgba(240, 255, 255, 0.25);
+}
+
+.tartalom {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 2;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.login {
+    position: relative;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
+    background-color: var(--bg);
+    padding: 40px;
+    border-radius: 20px;
+    margin-bottom: 40px;
+}
+
+.in {
+    height: 30px;
+    text-align: center;
+    font-size: x-large;
+    font-family: 'Comfortaa', cursive;
+    background: rgba(0,0,0,0.3);
+    border: 1px solid var(--bgl);
+    color: azure;
+    margin: 5px;
+    padding: 20px;
+    border-radius: 10px;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
+    box-shadow: inset 0 -5px 45px rgba(100,100,100,0.2), 0 1px 1px rgba(255,255,255,0.2);
+    -webkit-transition: box-shadow .5s ease;
+	-moz-transition: box-shadow .5s ease;
+	-o-transition: box-shadow .5s ease;
+	-ms-transition: box-shadow .5s ease;
+	transition: box-shadow .5s ease;
+}
+
+.in::placeholder {
+    color: var(--c);
+}
+
+.in:focus { 
+    outline: none;
+    box-shadow: inset 0 -5px 45px rgba(100,100,100,0.4), 0 1px 1px rgba(255,255,255,0.2); 
+}
+
+.sub {
+    text-align: center;
+    font-size: larger;
+    font-family: 'Comfortaa', cursive;
+    background-color: var(--b);
+    color: azure;
+    margin: 20px;
+    margin-left: 15px;
+    border-radius: 10px;
+    padding: 10px;
+    border: 1px solid var(--b);
+}
+
+.sub:hover {
+    background-color: var(--bh);
+    border: 1px solid var(--bh);
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    border: 1px solid var(--bgl);
+    background-color: var(--bgl);
+    color: azure;
+    margin-left: 160px;
+    font-family: Comfortaa;
+    font-size: medium;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+a:hover {
+    background-color: var(--bglh);
+    border: 1px solid var(--bglh);
+}
+
+.errors {
+    position: absolute;
+    bottom: 0; /* hozzáadva */
+    left: 0;
+    right: 0;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
+    background-color: var(--err);
+    font-size: larger;
+    width: max-content;
+    margin: auto;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    font-family: 'Comfortaa';
+    color: azure;
+}
