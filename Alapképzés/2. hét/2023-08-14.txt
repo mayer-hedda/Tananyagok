@@ -1,0 +1,163 @@
+AI típusai:
+	- chat
+	- kép és videó alkotás
+	- hang alkotás
+	- önvezető autó
+	- mobil asszisztensek (Siri)
+
+deepfake
+
+chatGPT
+	- nyelvi modell --> szöveget értelmez és szöveggel válaszol
+	
+chatGPT Plus:
+	- mindig elérhető
+	- gyorsabban válaszol
+	- választható a nyelvi modell
+	- kiegészítők hssználata
+	- képeket is tudunk átadni, és visszakapni is tudunk képeket
+	- 2021 szeptemberig ismeri az internetet, de képes keresni (chatGPT 4)
+
+hasonlók: 
+	- google bard (nem minden országban elérhető, képes keresésre)
+	- microsoft bing (képes keresni, openAI nyelvi modelljét használni)
+
+működése: 
+	- szavankénk generálja a válaszát, mindig az előző részekhez idomítja a következő szót
+	- nem érti összefüggően, hogy én mit írok, vagy hogy ő mit válaszol
+	
+halucináció: ha nem jól válaszol
+
+large language modell -> mélytanulás
+
+chatGPT 3.5 -> 96 ... rétegből álló neurális háló
+	- feltanítás adatokkal
+	- 4000 token kb. 3000 szót tud eltárolni ("emlékszik" a beszélgetésünk korábbi részeire és tud rá hivatkozni) --> hisszabb inputot és választ nem tud feldolgozni
+chatGPT 4 --> 32000 token
+
+
+
+
+prompt engineering : híd a felhasználói elvárások és modell képessége között
+	- modellek finomhangolása:
+		- maximalizáljuk a modellek működését
+	- adatgyűjtés és elemzés
+	- fejlesztések és őjítások
+		- új módszerek, új technológiák bevezetése --> lényegretörőbb válaszok
+	- dokumentáció, csapatmunka:
+		- megérthetőség
+	- hibajavítás, optimalizálás
+
+jó prompt:
+	- kreativitás és relevancia (abból dolgozik, amit adunk neki)
+	- pontos, tiszta fogalmazás
+	- rugalmasság
+felépítése:
+	- fajtái: egyszerű és összetett
+	
+	- EGYSZERŰ:
+	- szakértői személyiség [opcionális]
+	- ige
+	- hossz és kimenet (pl. programnyelv) [opcionális]
+	- feladat, célkitűzés (mit akarunk elérni, mit akarunk visszakapni)
+	- adatok és erőforrások [opcionális]
+	- hangnem (pl. hivatalos személynek írunk) [opcionális] 
+	- milyen közönségnek szánjuk a promptot [opcionális]
+
+	- HALADÓ:
+	- szakértői személyiség [opcionális]
+	- ige
+	- hossz és kimenet (pl. programnyelv) [opcionális]
+	- feladat, célkitűzés (mit akarunk elérni, mit akarunk visszakapni)
+	- adatok és erőforrások [opcionális]
+	- hangnem (pl. hivatalos személynek írunk) [opcionális] 
+	- milyen közönségnek szánjuk a promptot [opcionális]
+	- "vizsgáld meg az alábbiakat"
+
+kontextus:
+	- milyen területre szükséges / milyen szakzsargont használjon
+	- 
+	- fókusz vagy kérdések
+	- téma / tematika
+	- kulcsfontosságú dolgok átadása
+	
+szakértői személyiség
+	- vállalkozó
+	- professzor
+	- életvezetési tanácsadó
+	- nyilvános előadó
+	- szoftverfejlesztő
+	
+cselekvő igék:
+	- keress (találj)
+	- fejlessz bennem valamit (xd)
+	- fejlessz
+	- tervezz
+	- kutass
+
+hossz és kimeneti típus:
+	- bekezdések
+	- pontozott lista
+	- számozott lista
+	- táblázat
+	- kód
+	
+közönságek:
+	- "alkudozó vadász"
+	- szkeptikus
+	- lojális
+	- ökológus
+	- trend követő
+
+hangvétel:
+	- informatív
+	- inspiráló
+	- álmodozó
+	- robotosan
+	- misztikus
+
+feladat / cél:
+	- maga a szöveg (pl. linked.in -es szöveg)
+
+adat és referencia:
+	- adatszerkezet, bloglink, youtube videó
+
+
+egyéb szempontok:
+	- follow-up: csinálja ugyanazt, amit az előzőkben leírt, csak kiegészítjük
+	- purpose: összefoglaló
+	- nehézség
+	- subject matter
+	- kulcsszavak
+	- források
+	- megjegyzések
+	- megjegyzések
+	- created by
+	- státusz
+
+	- formája, struktúrája:
+		- hossz
+		- fordítson
+		- töltse fel emojikkal
+
+	- hangvétel, stílus:	
+		- még megnyerőbb legyen
+		- használjon retorikai eszközöket
+		- másik nézőpontot/perspektívát használjon
+		- hangvétel módosítása
+		- használjon beszélgető hangvételt
+
+	- adatok, források:
+		- adatok / források hozzáadása
+		- linkeld be a forrásokat
+		- illesszen be linkeket
+		- lábjegyzeteket használjon
+		- releváns, témába illő videók, jegyzetek, stb
+
+	- részletesség:
+		- több/kevesebb információ
+		- illesszen bele mégjobban a történetbe pl
+		- szabja személyre egy adott közönségnek
+		- másik közönség számára alakítsa át
+
+The End

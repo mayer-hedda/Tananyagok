@@ -1,0 +1,86 @@
+Evolúciós algoritmus: 
+	- matematikai algoritmusok alapján -> túl sok if kellene, képlettel gyorsabb
+	- neuron kisülés: amikor egy neuronon áthalad egy adat
+	- dimenzióredukció -> van-e ára? -> van hogy vesztünk fontos adatot
+	- metaadat -> matematikai transzformációval érjük el
+
+	- mátris összeadás
+		- ugyanakkor mátrxokat tudunk csa összeadni
+
+	- mátrix szorzása mátrixal vagy vektorral
+		- 
+
+	- vektoriális szorzat
+
+	- diagonális mátrix (ugyanannyi sor és oszlop) -> a főátlóban csak nullák vannak
+
+
+- MÁTRIXOK ÖSSZEADÁSA:
+A:			B:		
+1 0 8			0 1 4			1 1 12
+3 0 2		+	6 -2 1		= 	9 -2 3	
+0 1 6			0 -1 2			0 0 8
+
+
+
+- MÁTRIX SZORZÁS VEKTORRAL:
+		V:
+		1
+		2
+		3
+A:
+1 0 2		7	1*1 + 0*2 + 2*3
+3 1 6		23	3*1 + 1*2 + 6*3
+2 1 0		4	2*1 + 1*2
+
+
+
+
+		V:
+		1
+		-1
+		1
+A:
+8 0 1		9
+2 1 0		1
+3 -2 -1		4
+
+
+- VEKTORIÁLIS SZORZAT:
+V:		K:		
+1		0		0 -1 -2
+2	*	-1	=	0 -2 -4
+3		-2		0 -3 -6
+
+
+
+Hopfield neurális háló:
+	- mintafelismerésre használjuk leginkább
+	- nem lineális függvénnyel tudom elválasztani őket
+	- nem lineális problémák megoldására használjuk
+	
+	C betű:    + + +
+		   + . .
+		   + + +
+	Array(1, 1, 1, 1, -1, -1, 1, 1, 1) -> síkban
+	
+	minden neuront mindennel összekötünk -> vektoriális szorzat
+		- önmagukkal nincsenek összekötve a neuronok -> ezért kinullázható a főátló
+		
+
+
+Perceptron:
+	- lineális problémára használjuk (általában nem lineális függvények hez használjuk a neurális hálóket, de van kivétel)
+	- szinte mindig elfogy az error -> mert lineális problémákra használjuk
+
+
+Back-propagation:
+	- mindig traineljük
+	- megerősítjük a helyes útvonalat
+	- nem lineális problémákra alkalmazzuk
+	- súlyozzuk -> csökkentjük az errorokat
+
+
+30pontos elméleti teszt
+fuzzy feladat -> keretrendszer (2 input (3) -> 1 output (?)) -> nekem kell a fuzzy szabályokat hozzárendelnem (9 szabály)
+hopfield feladat -> 20 pont (súlymátrixot vektoriális szorzattal -> diagonálissá -> megszorozzuk a bemenő patternnel -> több pattern -> azokból a mátrixokat összeadni -> )

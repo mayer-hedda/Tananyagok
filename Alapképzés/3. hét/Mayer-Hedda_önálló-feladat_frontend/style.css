@@ -1,0 +1,94 @@
+body {
+    margin: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.left {
+    /* add text center */
+    text-align: center;
+    /* add float left */
+    float: left;
+    /* add width 20% */
+    width: 60%;
+    /* resize the div so that its height fills the whole screen */
+    resize: vertical;
+    position: absolute;
+    padding-top: 180px;
+    padding-bottom: 180px;
+}
+
+.line {
+    position: relative;
+}
+
+.hr {
+    /* modify the hr color is light grey */
+    background-color: rgb(216, 216, 216);
+    border: none;
+    width: 60%;
+    margin: 20px auto;
+    height: 1px;
+}
+
+.p {
+    position: absolute;
+    top: -22px;
+    left: 47%;
+    background-color: white;
+    width: 50px;
+    font-size: small;
+    /* text-align: center; */
+    color: rgb(216, 216, 216);
+}
+
+.right {
+    /* make the background go from green to turquoise green */
+    background: linear-gradient(225deg, #3AA6B1 0%, #38BA8C 100%);
+    /* floating right */
+    float: right;
+    /* modifie the text color is white */
+    color: white;
+    /* add text center */
+    text-align: center;
+    /* add width 80% */
+    width: 40%;
+    resize: vertical;
+    padding-top: 280px;
+    padding-bottom: 280px;
+}
+
+/* modify the "btn" class so that it has a white background with black text and is center aligned */
+.btn1 {
+    background-color: #28B498;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    border-radius: 50px;
+    width: 170px;
+    border: none;
+}
+
+.btn2 {
+    background-color: white;
+    color: black;
+    text-align: center;
+    padding: 10px;
+    border-radius: 50px;
+    width: 170px;
+    border: none;
+}
+
+.eye {
+    position: absolute;
+    bottom: 34%;
+    left: 75%;
+    width: 20px;
+}
+
+input[type=text], input[type=password] {
+    width: 55%;
+    padding: 12px 20px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    background-color: #EEF5F3;
+}

@@ -1,0 +1,68 @@
+önéletrejazot megírni otthon
+filmet megnézni
+java restAPI
+
+
+Mesterséges intelligencia: emberek által programozott, az emberi gondolkodást szimmulálja
+	- gólem (Kempelen Farkas) -> sakkozó robot (gépben megbúvó ember)
+	- Elen Tyuring(?) - tudnak-e a gépek gondolkodni(tanulmány) -> tyuring teszt - egy ember meg tudja-e 
+	  állapítani egy gépről, hogy gép van ember-e (ha azt gondolja, hogy ember, akkor a gép átment a 
+	  teszte -> itt kommunikációban mérjük az intelligenciát)
+	- Sofia (első robot aki állampolgárságot kapott Szaud-Arábiában -> több joga van, mit egy nőnek) -> kommunikációra képes (nagy hype (nagyméretű nyelvi modellek) -> érdemes ebbe az irányba elmozdulni)
+	- AI 	-> rengeteg if
+		-> machine learning (öntanulás) -> növeli a számítási pontosságot
+	- Tilesch György - AI szakértő (Mesterség és intelligencia c. könyve)
+	- Szabály alapú rendszerek (szakértői rendszerek)
+	- neurális hálók -> az agyat próbálja szimulálni
+	- Fuzzy (reprezentálja az emberi gondolkodást)	  
+
+intelligencia: 	drogkereső kutya (az az intelligencia, amit annak hiszünk)
+		baktérium máshogy intelligensebb, mint egy lift (attól függ miben mérjük az intelligenciát)
+
+Neurális háló alapjai:
+	- data science -> AI -> mechine learning -> deepl learning -> artificial neural networks
+	- input - output rétegek
+
+Aktuális:
+	- chatGPT
+	- midjourney
+
+Fuzzy logika:
+	Schrödinger macskája (a macska él is meg nem is -> amég meg nem nézzük)
+	az emberek nem úgy működnek, mint a gépek (van talán / bizonytalan rendszer)
+	pl.: Peti egy magas srác. / Peti vajon lázas?
+	
+	- képes a bizonytalan rendszerek leírására, megfogalmazására
+	- nem kell trénelni, de nagyon sok matek van mögötte
+	- pl. csecsemő, gyerek, serdülő, felnőtt (több ilyen függvényt mergelünk össze)
+	- autókövetés (matlab): 
+		- input: v(sebesség), d(távolság)
+		- output: a(gyorsulás)
+
+		- v = {low, medium, high}
+		- d = {close, medium, long}
+		- a = {very negative, negative, zero, positive, very positive}
+		
+		- input -> fuzzyfication -> fuzzy logika (fuzzy univerzum) -> defuzzication -> output
+
+		- első input: sebesség
+			- trapmf függvények
+		- második input: távolság
+			- trapmf függvények
+		- output: gyorsulás
+			- trapmf függvények
+
+		- megadjuk a szabályokat (pl. ha v = low és d = long --> a = very positive)
+		- több szabály --> bonyolultabb függvény
+	
+
+
+Feladat: borravaló probléma
+	- input:
+		- előzetes elvárás (putri, átlagos, elit) --> V = {P, Á, L}
+		- anyagi helyzet (csóró, átlagos, gazdag) --> A = {CS, Á, G}
+		- kiszolgálás (szar, átlagos, jó) --> K = {SZ, Á, J}
+		- milyen finom volt az étel (fos, átlagos, ínycsiklandozó) --> M = {F, Á, I}
+
+	- output:
+		- borravaló (zero, kevés, sok) --> BV = {Z, K, S}
