@@ -1,0 +1,73 @@
+Hazai Csapat;Vendeg Csapat;Lott Golok;Kapott Golok;Idopont
+Barcelona;Manchester United;3;2;2024.04.01 18:00
+Tottenham Hotspur;Manchester United;0;2;2024.04.02 15:30
+Bayern Munich;Tottenham Hotspur;4;2;2024.04.03 20:00
+AC Milan;Napoli;2;1;2024.04.04 19:45
+Atletico Madrid;Barcelona;2;1;2024.04.05 21:00
+Barcelona;AC Milan;4;1;2024.04.06 17:30
+Ajax;Atletico Madrid;2;2;2024.04.07 16:45
+Liverpool;Bayern Munich;2;2;2024.04.08 14:15
+Tottenham Hotspur;Liverpool;0;2;2024.04.09 19:00
+Manchester United;Ajax;2;2;2024.04.10 20:30
+Liverpool;Atletico Madrid;1;0;2024.04.11 18:00
+Bayern Munich;Barcelona;1;1;2024.04.12 15:30
+Napoli;Barcelona;1;3;2024.04.13 20:00
+Tottenham Hotspur;AC Milan;1;2;2024.04.14 19:45
+Ajax;Liverpool;2;2;2024.04.15 21:00
+AC Milan;Atletico Madrid;1;2;2024.04.16 17:30
+Barcelona;Bayern Munich;1;1;2024.04.17 16:45
+Manchester United;Napoli;1;0;2024.04.18 14:15
+Liverpool;Manchester United;1;1;2024.04.19 19:00
+Napoli;Ajax;3;2;2024.04.20 20:30
+Tottenham Hotspur;Ajax;2;2;2024.04.21 18:00
+AC Milan;Barcelona;0;3;2024.04.22 15:30
+Napoli;Liverpool;1;1;2024.04.23 20:00
+Atletico Madrid;Tottenham Hotspur;2;1;2024.04.24 19:45
+Ajax;Manchester United;1;1;2024.04.25 21:00
+Bayern Munich;AC Milan;1;0;2024.04.26 17:30
+Barcelona;Napoli;3;1;2024.04.27 16:45
+Manchester United;Atletico Madrid;2;0;2024.04.28 14:15
+Liverpool;Napoli;1;1;2024.04.29 19:00
+Napoli;Atletico Madrid;0;1;2024.04.30 20:30
+AC Milan;Ajax;1;0;2024.05.01 18:00
+Barcelona;Liverpool;2;3;2024.05.02 15:30
+Manchester United;Tottenham Hotspur;3;1;2024.05.03 20:00
+Atletico Madrid;Napoli;1;0;2024.05.04 19:45
+Ajax;Barcelona;1;3;2024.05.05 21:00
+Bayern Munich;Liverpool;0;0;2024.05.06 17:30
+AC Milan;Manchester United;2;2;2024.05.07 16:45
+Tottenham Hotspur;Atletico Madrid;2;1;2024.05.08 14:15
+Ajax;Bayern Munich;0;2;2024.05.09 19:00
+Napoli;AC Milan;2;1;2024.05.10 20:30
+Manchester United;Liverpool;1;1;2024.05.11 18:00
+Atletico Madrid;AC Milan;2;2;2024.05.12 15:30
+Tottenham Hotspur;Barcelona;1;1;2024.05.13 20:00
+Bayern Munich;Manchester United;2;1;2024.05.14 19:45
+Liverpool;AC Milan;3;1;2024.05.15 21:00
+Atletico Madrid;Bayern Munich;0;1;2024.05.16 17:30
+Ajax;Tottenham Hotspur;0;1;2024.05.17 16:45
+Napoli;Manchester United;1;0;2024.05.18 14:15
+AC Milan;Bayern Munich;2;2;2024.05.19 19:00
+Liverpool;Barcelona;2;2;2024.05.20 20:30
+Barcelona;Ajax;2;0;2024.05.21 18:00
+Manchester United;AC Milan;2;0;2024.05.22 15:30
+Tottenham Hotspur;Napoli;3;1;2024.05.23 20:00
+Bayern Munich;Atletico Madrid;3;2;2024.05.24 19:45
+Liverpool;Ajax;2;2;2024.05.25 21:00
+Barcelona;Tottenham Hotspur;3;0;2024.05.26 17:30
+Manchester United;Barcelona;1;1;2024.05.27 16:45
+AC Milan;Liverpool;1;1;2024.05.28 14:15
+Napoli;Bayern Munich;0;2;2024.05.29 19:00
+Atletico Madrid;Manchester United;2;1;2024.05.30 20:30
+Ajax;AC Milan;0;0;2024.05.31 18:00
+Tottenham Hotspur;Bayern Munich;1;1;2024.06.01 15:30
+Bayern Munich;Napoli;2;2;2024.06.02 20:00
+Atletico Madrid;Ajax;1;1;2024.06.03 19:45
+AC Milan;Tottenham Hotspur;2;1;2024.06.05 17:30
+Barcelona;Atletico Madrid;1;1;2024.06.06 16:45
+Liverpool;Tottenham Hotspur;1;1;2024.06.07 14:15
+Bayern Munich;Ajax;2;0;2024.06.08 19:00
+Napoli;Tottenham Hotspur;1;3;2024.06.09 20:30
+Manchester United;Bayern Munich;2;2;2024.06.10 18:00
+Atletico Madrid;Liverpool;1;0;2024.06.11 15:30
+Ajax;Napoli;0;2;2024.06.12 20:00
